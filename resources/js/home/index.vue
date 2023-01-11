@@ -306,10 +306,10 @@
                         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                             <div class="hero__content p-relative z-index-1">
                                 <h3 class="hero__title">
-                                    <span>Access 2700+</span>
-                                    <span class="yellow-shape">Online <img src="assets/img/shape/yellow-bg.png" alt="yellow-shape"> </span>
-                                    Tutorial From Top Instructor.</h3>
-                                <p>Meet university,and cultural institutions, who'll share their experience.</p>
+                                    <span>Oguru</span>
+                                    <span class="yellow-shape">Learn <img src="assets/img/shape/yellow-bg.png" alt="yellow-shape"> </span>
+                                    on your schedule</h3>
+                                <p>Study any topic, anytime. Explore thousands of courses for the lowest price ever!</p>
                                 <a href="course-grid.html" class="e-btn">view all course</a>
                             </div>
                         </div>
@@ -323,8 +323,8 @@
                                 <div class="hero__thumb-big mr-30">
                                     <img src="assets/img/hero/hero-1.jpg" alt="">
                                     <div class="hero__quote hero__quote-animation">
-                                        <span>Oguru</span>
-                                        <h4>“Join sekarang juga</h4>
+                                        <span>Tempat Belajar Terbaik</span>
+                                        <h4>Belajar Bersama Guru Bangsa</h4>
                                     </div>
                                 </div>
                                 <div class="hero__thumb-sm mt-50 d-none d-lg-block">
