@@ -2,7 +2,6 @@ import {createRouter, createWebHistory } from "vue-router";
 import Home from "../landing/Index.vue";
 import Course from "../course/Index.vue";
 import CourseDetail from "../course/Detail.vue";
-import About from "../components/About.vue"
 
 const routes = [
     {
