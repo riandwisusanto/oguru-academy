@@ -27,7 +27,7 @@
 <body>
 <div id="app"></div>
 
-@vite('resources/js/app.js')
+<!-- @vite('resources/js/app.js') -->
 
 <script src="{{ asset('assets/js/vendor/jquery-3.5.1.min.js') }}"></script>
 <script src="{{ asset('assets/js/vendor/waypoints.min.js') }}"></script>
