@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// public
+Route::apiResource('category', App\Http\Controllers\Api\CategoryController::class)->only(['index', 'show']);
+Route::apiResource('course', App\Http\Controllers\Api\CourseController::class)->only(['index', 'show']);
+Route::apiResource('mitra', App\Http\Controllers\Api\MitraController::class)->only(['index', 'show']);
