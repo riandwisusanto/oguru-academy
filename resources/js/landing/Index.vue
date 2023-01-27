@@ -287,7 +287,9 @@
                         <div class="course__menu d-flex justify-content-lg-end mb-60">
                             <div class="masonary-menu filter-button-group">
                                 <button class="active" data-filter="*">
-                                    See All
+                                    <router-link to="/course">
+                                        See All
+                                    </router-link>
                                     <span class="tag">new</span>
                                 </button>
                                 <button data-filter=".cat1">Trending</button>
