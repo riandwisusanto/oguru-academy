@@ -334,9 +334,10 @@
                                     <span v-else>Rp. {{ currency(course.price) }}</span>
                                 </div>
                                 <div class="course__btn">
-                                    <a href="course-details.html" class="link-btn">
-                                        Know Details
-                                        <i class="far fa-arrow-right"></i>
+                                    <a href="" class="link-btn">
+                                        <router-link :to="'/course/' + course.id">
+                                            Know Details
+                                        </router-link>
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>

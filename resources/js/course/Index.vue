@@ -122,8 +122,9 @@
                                                     </div>
                                                     <div class="course__btn">
                                                         <a href="course-details.html" class="link-btn">
-                                                            Know Details
-                                                            <i class="far fa-arrow-right"></i>
+                                                            <router-link :to="'/course/' + course.id">
+                                                                Know Details
+                                                            </router-link>
                                                             <i class="far fa-arrow-right"></i>
                                                         </a>
                                                     </div>
@@ -178,8 +179,9 @@
                                                                 </div>
                                                                 <div class="course__btn">
                                                                     <a href="course-details.html" class="link-btn">
-                                                                        Know Details
-                                                                        <i class="far fa-arrow-right"></i>
+                                                                        <router-link :to="'/course/' + course.id">
+                                                                            Know Details
+                                                                        </router-link>
                                                                         <i class="far fa-arrow-right"></i>
                                                                     </a>
                                                                 </div>

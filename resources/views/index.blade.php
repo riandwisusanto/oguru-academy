@@ -75,9 +75,7 @@
                                                 <span>Category</span>
                                             </a>
                                             <ul class="cat-submenu">
-{{--                                                @foreach($category as $cate)--}}
-{{--                                                <li><a href="course-details.html"> </a></li>--}}
-{{--                                                @endforeach--}}
+                                                <li><a href="course-details.html"> </a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -90,22 +88,11 @@
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li class="has-dropdown">
-                                            <a href="index.html">Home</a>
-                                            <ul class="submenu">
-                                                <li><a href="index.html">Home Style 1</a></li>
-                                                <li><a href="index-2.html">Home Style 2</a></li>
-                                                <li><a href="index-3.html">Home Style 3</a></li>
-                                            </ul>
+                                        <li class="">
+                                            <a href="/">Home</a>
                                         </li>
-                                        <li class="has-dropdown">
-                                            <router-link to="/course">Courses</router-link>
-                                            <ul class="submenu">
-                                                <li><a href="course-grid.html">Courses</a></li>
-                                                <li><a href="course-list.html">Course List</a></li>
-                                                <li><a href="course-sidebar.html">Course sidebar</a></li>
-                                                <li><a href="course-details.html">Course Details</a></li>
-                                            </ul>
+                                        <li class="">
+                                            <a href="/course">Courses</a>
                                         </li>
                                         <li class="has-dropdown">
                                             <a href="blog.html">Blog</a>
