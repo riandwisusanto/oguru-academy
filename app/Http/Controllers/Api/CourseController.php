@@ -16,7 +16,7 @@ class CourseController extends Controller
     public function index()
     {
         try {
-            $data = Course::with(['user', 'category'])->get();
+            $data = Course::with(['user', 'category', 'lessons'])->orderBy('created_at', 'desc')->limit(3)->get();
             return response()->json([
                 'status' => true,
                 'message'=> 'Success load all course',

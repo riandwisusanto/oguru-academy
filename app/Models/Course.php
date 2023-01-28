@@ -18,4 +18,9 @@ class Course extends Model
     {
         return $this->hasOne('App\Models\Category', 'id', 'category_id');
     }
+    
+    public function lessons()
+    {
+        return $this->hasMany('App\Models\Lesson', 'course_id', 'id');
+    }
 }

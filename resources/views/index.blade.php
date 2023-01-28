@@ -75,7 +75,9 @@
                                                 <span>Category</span>
                                             </a>
                                             <ul class="cat-submenu">
-                                                <li><a href="course-details.html"> </a></li>
+                                                @foreach(category() as $row)
+                                                    <li><a href="#">{{ $row->name }}</a></li>
+                                                @endforeach
                                             </ul>
                                         </li>
                                     </ul>
@@ -93,7 +95,7 @@
                                         </li>
                                         <li class="">
                                             <a href="/course">Courses</a>
-                                        </li>
+                                        <!-- </li>
                                         <li class="has-dropdown">
                                             <a href="blog.html">Blog</a>
                                             <ul class="submenu">
@@ -115,8 +117,8 @@
                                                 <li><a href="sign-up.html">Sign Up</a></li>
                                                 <li><a href="error.html">Error</a></li>
                                             </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        </li> -->
+                                        <li><a href="#">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -134,12 +136,12 @@
                                                 <path class="st0" d="M1,1h4l2.7,13.4c0.2,1,1,1.6,2,1.6h9.7c1,0,1.8-0.7,2-1.6L23,6H6"/>
                                             </svg>
                                         </div>
-                                        <span class="cart-item">2</span>
+                                        <span class="cart-item">0</span>
                                     </a>
                                 </div>
                             </div>
                             <div class="header__btn ml-20 d-none d-sm-block">
-                                <a href="contact.html" class="e-btn">Try for free</a>
+                                <a href="#" class="e-btn">Try for free</a>
                             </div>
                             <div class="sidebar__menu d-xl-none">
                                 <div class="sidebar-toggle-btn ml-30" id="sidebar-toggle">
@@ -167,7 +169,7 @@
             </div>
             <div class="cartmini__widget">
                 <div class="cartmini__inner">
-                    <ul>
+                    <!-- <ul>
                         <li>
                             <div class="cartmini__thumb">
                                 <a href="#">
@@ -225,16 +227,16 @@
                             </div>
                             <a href="#" class="cartmini__del"><i class="fal fa-times"></i></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="cartmini__checkout">
                     <div class="cartmini__checkout-title mb-30">
                         <h4>Subtotal:</h4>
-                        <span>$113.00</span>
+                        <span>0</span>
                     </div>
                     <div class="cartmini__checkout-btn">
-                        <a href="cart.html" class="e-btn e-btn-border mb-10 w-100"> <span></span> view cart</a>
-                        <a href="checkout.html" class="e-btn w-100"> <span></span> checkout</a>
+                        <a href="#" class="e-btn e-btn-border mb-10 w-100"> <span></span> view cart</a>
+                        <a href="#" class="e-btn w-100"> <span></span> checkout</a>
                     </div>
                 </div>
             </div>
