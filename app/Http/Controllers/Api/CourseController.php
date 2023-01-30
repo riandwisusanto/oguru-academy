@@ -11,15 +11,16 @@ class CourseController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\JsonResponse
      */
     public function index()
     {
         try {
+            $data = Course::with(['user', 'category', 'lessons'])->orderBy('created_at', 'desc')->limit(3)->get();
             return response()->json([
                 'status' => true,
-                'message'=> 'Success load all couse',
-                'data'   => Course::all()
+                'message'=> 'Success load all course',
+                'data'   => $data
             ]);
         } catch (\Throwable $e) {
             return response()->json([
@@ -59,7 +60,7 @@ class CourseController extends Controller
      */
     public function show($id)
     {
-        $data = Course::find($id);
+        $data = Course::where('id', $id)->with(['user', 'category'])->first();
         try {
             return response()->json([
                 'status' => true,

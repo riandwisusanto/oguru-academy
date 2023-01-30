@@ -994,7 +994,7 @@ p {
   position: absolute;
   top: calc(100% + 30px);
   left: 0;
-  width: 200px;
+  width: 300px;
   padding: 17px 0;
   padding-bottom: 15px;
   background: #ffffff;
@@ -3375,6 +3375,14 @@ p {
 .course__share ul li a.tw:hover {
   color: #ffffff;
   background: #03a9f4;
+}
+.course__share ul li a.yt {
+  color: #f40303;
+  background: rgba(3, 169, 244, 0.1);
+}
+.course__share ul li a.yt:hover {
+  color: #ffffff;
+  background: #f40303;
 }
 .course__share ul li a.pin {
   color: #d8163f;

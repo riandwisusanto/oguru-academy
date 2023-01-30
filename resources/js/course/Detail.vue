@@ -5,274 +5,6 @@
 
     <!-- Add your site or application content here -->
 
-    <!-- pre loader area start -->
-    <div id="loading">
-        <div id="loading-center">
-            <div id="loading-center-absolute">
-                <div class="loading-content">
-                    <img class="loading-logo-text" src="assets/img/logo/logo-text-2.png" alt="">
-                    <div class="loading-stroke">
-                        <img class="loading-logo-icon" src="assets/img/logo/logo-icon.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- pre loader area end -->
-
-    <!-- back to top start -->
-    <div class="progress-wrap">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-    <!-- back to top end -->
-
-    <!-- header area start -->
-    <header>
-        <div id="header-sticky" class="header__area header__padding-2 header__shadow">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
-                        <div class="header__left d-flex">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="assets/img/logo/logo.png" alt="logo">
-                                </a>
-                            </div>
-                            <div class="header__category d-none d-lg-block">
-                                <nav>
-                                    <ul>
-                                        <li>
-                                            <a href="course-grid.html" class="cat-menu d-flex align-items-center">
-                                                <div class="cat-dot-icon d-inline-block">
-                                                    <svg viewBox="0 0 276.2 276.2">
-                                                        <g>
-                                                            <g>
-                                                                <path class="cat-dot" d="M33.1,2.5C15.3,2.5,0.9,17,0.9,34.8s14.5,32.3,32.3,32.3s32.3-14.5,32.3-32.3S51,2.5,33.1,2.5z"/>
-                                                                <path class="cat-dot" d="M137.7,2.5c-17.8,0-32.3,14.5-32.3,32.3s14.5,32.3,32.3,32.3c17.8,0,32.3-14.5,32.3-32.3S155.5,2.5,137.7,2.5    z"/>
-                                                                <path class="cat-dot" d="M243.9,67.1c17.8,0,32.3-14.5,32.3-32.3S261.7,2.5,243.9,2.5S211.6,17,211.6,34.8S226.1,67.1,243.9,67.1z"/>
-                                                                <path class="cat-dot" d="M32.3,170.5c17.8,0,32.3-14.5,32.3-32.3c0-17.8-14.5-32.3-32.3-32.3S0,120.4,0,138.2S14.5,170.5,32.3,170.5z"/>
-                                                                <path class="cat-dot" d="M136.8,170.5c17.8,0,32.3-14.5,32.3-32.3c0-17.8-14.5-32.3-32.3-32.3c-17.8,0-32.3,14.5-32.3,32.3    C104.5,156.1,119,170.5,136.8,170.5z"/>
-                                                                <path class="cat-dot" d="M243,170.5c17.8,0,32.3-14.5,32.3-32.3c0-17.8-14.5-32.3-32.3-32.3s-32.3,14.5-32.3,32.3    C210.7,156.1,225.2,170.5,243,170.5z"/>
-                                                                <path class="cat-dot" d="M33,209.1c-17.8,0-32.3,14.5-32.3,32.3c0,17.8,14.5,32.3,32.3,32.3s32.3-14.5,32.3-32.3S50.8,209.1,33,209.1z    "/>
-                                                                <path class="cat-dot" d="M137.6,209.1c-17.8,0-32.3,14.5-32.3,32.3c0,17.8,14.5,32.3,32.3,32.3c17.8,0,32.3-14.5,32.3-32.3    S155.4,209.1,137.6,209.1z"/>
-                                                                <path class="cat-dot" d="M243.8,209.1c-17.8,0-32.3,14.5-32.3,32.3c0,17.8,14.5,32.3,32.3,32.3c17.8,0,32.3-14.5,32.3-32.3    S261.6,209.1,243.8,209.1z"/>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-                                                <span>Category</span>
-                                            </a>
-                                            <ul class="cat-submenu">
-                                                <li><a href="course-details.html">English Learning</a></li>
-                                                <li><a href="course-details.html">Web Development</a></li>
-                                                <li><a href="course-details.html">Logo Design</a></li>
-                                                <li><a href="course-details.html">Motion Graphics</a></li>
-                                                <li><a href="course-details.html">Video Edition</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-10 col-sm-8 col-6">
-                        <div class="header__right d-flex justify-content-end align-items-center">
-                            <div class="main-menu main-menu-2">
-                                <nav id="mobile-menu">
-                                    <ul>
-                                        <li class="has-dropdown">
-                                            <a href="index.html">Home</a>
-                                            <ul class="submenu">
-                                                <li><a href="index.html">Home Style 1</a></li>
-                                                <li><a href="index-2.html">Home Style 2</a></li>
-                                                <li><a href="index-3.html">Home Style 3</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <a href="course-grid.html">Courses</a>
-                                            <ul class="submenu">
-                                                <li><a href="course-grid.html">Courses</a></li>
-                                                <li><a href="course-list.html">Course List</a></li>
-                                                <li><a href="course-sidebar.html">Course sidebar</a></li>
-                                                <li><a href="course-details.html">Course Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <a href="blog.html">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <a href="course-grid.html">Pages</a>
-                                            <ul class="submenu">
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="instructor.html">Instructor</a></li>
-                                                <li><a href="instructor-details.html">Instructor Details</a></li>
-                                                <li><a href="event-details.html">Event Details</a></li>
-                                                <li><a href="cart.html">My Cart</a></li>
-                                                <li><a href="wishlist.html">My Wishlist</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="sign-in.html">Sign In</a></li>
-                                                <li><a href="sign-up.html">Sign Up</a></li>
-                                                <li><a href="error.html">Error</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="header__btn header__btn-2 ml-50 d-none d-sm-block">
-                                <a href="sign-up.html" class="e-btn">Sign up</a>
-                            </div>
-                            <div class="sidebar__menu d-xl-none">
-                                <div class="sidebar-toggle-btn ml-30" id="sidebar-toggle">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- header area end -->
-
-    <!-- cart mini area start -->
-    <div class="cartmini__area">
-        <div class="cartmini__wrapper">
-            <div class="cartmini__title">
-                <h4>Shopping cart</h4>
-            </div>
-            <div class="cartmini__close">
-                <button type="button" class="cartmini__close-btn"><i class="fal fa-times"></i></button>
-            </div>
-            <div class="cartmini__widget">
-                <div class="cartmini__inner">
-                    <ul>
-                        <li>
-                            <div class="cartmini__thumb">
-                                <a href="#">
-                                    <img src="assets/img/course/sm/cart-1.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="cartmini__content">
-                                <h5><a href="#">Strategy law and organization Foundation </a></h5>
-                                <div class="product-quantity mt-10 mb-10">
-                                    <span class="cart-minus">-</span>
-                                    <input class="cart-input" type="text" value="1"/>
-                                    <span class="cart-plus">+</span>
-                                </div>
-                                <div class="product__sm-price-wrapper">
-                                    <span class="product__sm-price">$46.00</span>
-                                </div>
-                            </div>
-                            <a href="#" class="cartmini__del"><i class="fal fa-times"></i></a>
-                        </li>
-                        <li>
-                            <div class="cartmini__thumb">
-                                <a href="#">
-                                    <img src="assets/img/course/sm/cart-2.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="cartmini__content">
-                                <h5><a href="#">Fundamentals of music theory Learn new</a></h5>
-                                <div class="product-quantity mt-10 mb-10">
-                                    <span class="cart-minus">-</span>
-                                    <input class="cart-input" type="text" value="1"/>
-                                    <span class="cart-plus">+</span>
-                                </div>
-                                <div class="product__sm-price-wrapper">
-                                    <span class="product__sm-price">$32.00</span>
-                                </div>
-                            </div>
-                            <a href="#" class="cartmini__del"><i class="fal fa-times"></i></a>
-                        </li>
-                        <li>
-                            <div class="cartmini__thumb">
-                                <a href="#">
-                                    <img src="assets/img/course/sm/cart-3.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="cartmini__content">
-                                <h5><a href="#">Strategy law and organization Foundation </a></h5>
-                                <div class="product-quantity mt-10 mb-10">
-                                    <span class="cart-minus">-</span>
-                                    <input class="cart-input" type="text" value="1"/>
-                                    <span class="cart-plus">+</span>
-                                </div>
-                                <div class="product__sm-price-wrapper">
-                                    <span class="product__sm-price">$62.00</span>
-                                </div>
-                            </div>
-                            <a href="#" class="cartmini__del"><i class="fal fa-times"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cartmini__checkout">
-                    <div class="cartmini__checkout-title mb-30">
-                        <h4>Subtotal:</h4>
-                        <span>$113.00</span>
-                    </div>
-                    <div class="cartmini__checkout-btn">
-                        <a href="cart.html" class="e-btn e-btn-border mb-10 w-100"> <span></span> view cart</a>
-                        <a href="checkout.html" class="e-btn w-100"> <span></span> checkout</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="body-overlay"></div>
-    <!-- cart mini area end -->
-
-
-    <!-- sidebar area start -->
-    <div class="sidebar__area">
-        <div class="sidebar__wrapper">
-            <div class="sidebar__close">
-                <button class="sidebar__close-btn" id="sidebar__close-btn">
-                    <span><i class="fal fa-times"></i></span>
-                    <span>close</span>
-                </button>
-            </div>
-            <div class="sidebar__content">
-                <div class="logo mb-40">
-                    <a href="index.html">
-                        <img src="assets/img/logo/logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="mobile-menu fix"></div>
-
-                <div class="sidebar__search p-relative mt-40 ">
-                    <form action="#">
-                        <input type="text" placeholder="Search...">
-                        <button type="submit"><i class="fad fa-search"></i></button>
-                    </form>
-                </div>
-                <div class="sidebar__cart mt-30">
-                    <a href="#">
-                        <div class="header__cart-icon">
-                            <svg viewBox="0 0 24 24">
-                                <circle class="st0" cx="9" cy="21" r="1"/>
-                                <circle class="st0" cx="20" cy="21" r="1"/>
-                                <path class="st0" d="M1,1h4l2.7,13.4c0.2,1,1,1.6,2,1.6h9.7c1,0,1.8-0.7,2-1.6L23,6H6"/>
-                            </svg>
-                        </div>
-                        <span class="cart-item">2</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- sidebar area end -->
-    <div class="body-overlay"></div>
-    <!-- sidebar area end -->
-
     <main>
 
         <!-- page title area start -->
@@ -292,12 +24,12 @@
                                         <ol class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                                             <li class="breadcrumb-item"><a href="course-grid.html">Courses</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">The business Intelligence analyst Course 2022</li>
+                                            <li class="breadcrumb-item active" aria-current="page">{{ course.title }}</li>
                                         </ol>
                                     </nav>
                                 </div>
                                 <span class="page__title-pre">Development</span>
-                                <h5 class="page__title-3">The business Intelligence analyst Course 2022</h5>
+                                <h5 class="page__title-3">{{ course.title }}</h5>
                             </div>
                             <div class="course__meta-2 d-sm-flex mb-30">
                                 <div class="course__teacher-3 d-flex align-items-center mr-70 mb-30">
@@ -351,7 +83,7 @@
                                     <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                                         <div class="course__description">
                                             <h3>Course Overview</h3>
-                                            <p>Only a quid me old mucker squiffy tomfoolery grub cheers ruddy cor blimey guvnor in my flat, up the duff Eaton car boot up the kyver pardon you A bit of how's your father David skive off sloshed, don't get shirty with me chip shop vagabond crikey bugger Queen's English chap. Matie boy nancy boy bite your arm off up the kyver old no biggie fantastic boot, David have it show off show off pick your nose and blow off lost the plot porkies bits and bobs only a quid bugger all mate, absolutely bladdered bamboozled it's your round don't get shirty with me down the pub well. Give us a bell bits and bobs Charles he lost his bottle super my lady cras starkers bite your arm off Queen's English, pardon me horse play Elizabeth a blinding shot chinwag knees up do one David, blag cup of tea Eaton so I said bleeding haggle James Bond cup of char. Gosh William ummm I'm telling crikey burke I don't want no agro A bit of how's your father bugger all mate off his nut that, what a plonker cuppa owt to do with me nancy boy show off show off pick your nose and blow off spiffing good time lavatory me old mucker, chimney pot what a load of rubbish boot squiffy lost the plot brolly wellies excuse my french.</p>
+                                            <p v-html="course.desctiprions"></p>
 
                                             <div class="course__tag-2 mb-35 mt-35">
                                                 <i class="fal fa-tag"></i>
@@ -362,9 +94,14 @@
                                             <div class="course__description-list mb-45">
                                                 <h4>What is the Target Audience?</h4>
                                                 <ul>
-                                                    <li> <i class="icon_check"></i> Business's managers, leaders</li>
-                                                    <li> <i class="icon_check"></i> Downloadable lectures, code and design assets for all projects</li>
-                                                    <li> <i class="icon_check"></i> Anyone who is finding a chance to get the promotion</li>
+                                                    <li v-for="outcome in outcomes"> <i class="icon_check"></i> {{ outcome }}</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="course__description-list mb-45">
+                                                <h4>Audience Requirements</h4>
+                                                <ul>
+                                                    <li v-for="req in requirements"> <i class="icon_check"></i> {{ req }}</li>
                                                 </ul>
                                             </div>
                                             <div class="course__instructor mb-45">
@@ -1033,16 +770,13 @@
                                     <div class="course__video-thumb w-img mb-25">
                                         <img src="assets/img/course/video/course-video.jpg" alt="">
                                         <div class="course__video-play">
-                                            <a href="https://youtu.be/yJg-Y5byMMw" data-fancybox="" class="play-btn"> <i class="fas fa-play"></i> </a>
+                                            <a v-bind:href="course.overview" data-fancybox="" class="play-btn"> <i class="fas fa-play"></i> </a>
                                         </div>
                                     </div>
                                     <div class="course__video-meta mb-25 d-flex align-items-center justify-content-between">
                                         <div class="course__video-price">
-                                            <h5>$74.<span>00</span> </h5>
-                                            <h5 class="old-price">$129.00</h5>
-                                        </div>
-                                        <div class="course__video-discount">
-                                            <span>68% OFF</span>
+                                            <h5 v-if="course.is_free == 0">Rp. {{ currency(course.price) }} </h5>
+                                            <h5 v-else> FREE </h5>
                                         </div>
                                     </div>
                                     <div class="course__video-content mb-35">
@@ -1338,8 +1072,44 @@
 </template>
 
 <script>
+window.BASEURL=''
+import Header from '../component/Header.vue'
 export default {
-    name: "Detail"
+    name: 'Detail',
+    components : {
+        Header
+    },
+    data(){
+        return{
+            course: [],
+            id:'',
+            outcomes:'',
+            requirements:'',
+        }
+    },
+    async mounted(){
+        this.id = this.$route.params.id
+        await this.bootstrap();
+    },
+
+    methods: {
+        currency(value) {
+            let val = (value/1).toFixed(2).replace('.', ',')
+            return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+        },
+
+        async bootstrap() {
+            await this.fetchCourse();
+        },
+
+        async fetchCourse(){
+            let endpoint = `${BASEURL}/api/course/${this.id}`;
+            let response = await axios.get(endpoint)
+            this.course = response.data.data
+            this.outcomes = JSON.parse(this.course.outcomes)
+            this.requirements = JSON.parse(this.course.requirements)
+        },
+    }
 }
 </script>
 
