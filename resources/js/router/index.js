@@ -21,7 +21,7 @@ const routes = [
         component: CourseDetail,
     },
     {
-        path: "/registration",
+        path: "/registration-diklat-batch-2",
         name: "registration",
         component: Registration,
     },

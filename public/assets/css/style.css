@@ -3376,6 +3376,14 @@ p {
   color: #ffffff;
   background: #03a9f4;
 }
+.course__share ul li a.yt {
+  color: #f40303;
+  background: rgba(3, 169, 244, 0.1);
+}
+.course__share ul li a.yt:hover {
+  color: #ffffff;
+  background: #f40303;
+}
 .course__share ul li a.pin {
   color: #d8163f;
   background: rgba(216, 22, 63, 0.1);
