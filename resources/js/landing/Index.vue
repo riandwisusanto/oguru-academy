@@ -26,7 +26,7 @@
                                     <span class="yellow-shape">Learn <img src="assets/img/shape/yellow-bg.png" alt="yellow-shape"> </span>
                                     on your schedule</h3>
                                 <p>Study any topic, anytime. Explore thousands of courses for the lowest price ever!</p>
-                                <a href="course-grid.html" class="e-btn">view all course</a>
+                                <a href="#" class="e-btn">view all course</a>
                             </div>
                         </div>
                         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-4">
                         <div class="category__more mb-50 float-md-end fix">
-                            <a href="course-grid.html" class="link-btn">
+                            <a href="#" class="link-btn">
                                 View all Category
                                 <i class="far fa-arrow-right"></i>
                                 <i class="far fa-arrow-right"></i>
@@ -75,24 +75,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div v-for="(category, index) in collections.category" :key="index" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="category__item mb-30 transition-3 d-flex align-items-center">
                             <div class="category__icon mr-30">
-                                <svg viewBox="0 0 512 512">
+                                <!-- <svg viewBox="0 0 512 512">
                                     <g>
                                         <path class="st0" d="M178.7,492H120c-55.2,0-100-44.8-100-100V120C20,64.8,64.8,20,120,20h58.7C123.7,20,81,64.8,81,120v272   C81,447.2,123.7,492,178.7,492z M355.5,204.8l18.9-85.5c4.8-24.1,16.7-46.3,34.1-63.7l35.4-35.4c-15.1-1.4-30.7,3.7-42.3,15.3   l-61.1,61.1c-17.4,17.4-29.3,39.6-34.1,63.7L295,217l56.7-11.3C352.9,205.4,354.2,205.1,355.5,204.8L355.5,204.8z"/>
                                         <path class="st1" d="M299,512H120C53.8,512,0,458.2,0,392V120C0,53.8,53.8,0,120,0h183c11,0,20,9,20,20s-9,20-20,20H120   c-44.1,0-80,35.9-80,80v272c0,44.1,35.9,80,80,80h179c44.1,0,80-35.9,80-80V272c0-11,9-20,20-20s20,9,20,20v120   C419,458.2,365.2,512,299,512z M298.9,236.6l56.7-11.3c28.1-5.6,53.7-19.3,73.9-39.6l61.1-61.1c28.5-28.5,28.5-74.8,0-103.2   c-28.5-28.5-74.8-28.5-103.2,0l-61.1,61.1c-20.3,20.3-33.9,45.8-39.6,73.9l-11.3,56.7c-1.3,6.6,0.7,13.3,5.5,18.1   c3.8,3.8,8.9,5.9,14.1,5.9C296.3,237,297.6,236.9,298.9,236.6L298.9,236.6z M462.4,49.7c6.2,6.2,9.7,14.5,9.7,23.3   s-3.4,17.1-9.7,23.3l-61.1,61.1c-14.7,14.7-33.2,24.6-53.5,28.6l-27.3,5.4l5.4-27.3c4.1-20.3,14-38.8,28.6-53.5l61.1-61.1   c6.2-6.2,14.5-9.7,23.3-9.7S456.1,43.4,462.4,49.7L462.4,49.7z"/>
                                         <path class="st2" d="M319,352H101c-11,0-20-9-20-20s9-20,20-20h218c11,0,20,9,20,20S330.1,352,319,352z M211,387   c-13.8,0-25,11.2-25,25s11.2,25,25,25s25-11.2,25-25S224.8,387,211,387z"/>
                                     </g>
-                                </svg>
+                                </svg> -->
+                                <span :class="category.icon"></span>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Data Science</a></h4>
-                                <p>Data is Everything</p>
+                                <h4 class="category__title"><a href="#">{{ category.name }}</a></h4>
+                                <!-- <p>Data is Everything</p> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <!-- <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="category__item mb-30 transition-3 d-flex align-items-center">
                             <div class="category__icon mr-30">
                                 <svg viewBox="0 0 512 512">
@@ -104,7 +105,7 @@
                                 </svg>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Business</a></h4>
+                                <h4 class="category__title"><a href="#">Business</a></h4>
                                 <p>Improve your business</p>
                             </div>
                         </div>
@@ -121,7 +122,7 @@
                                 </svg>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Art & Design</a></h4>
+                                <h4 class="category__title"><a href="#">Art & Design</a></h4>
                                 <p>Fun & Challenging</p>
                             </div>
                         </div>
@@ -138,7 +139,7 @@
                                 </svg>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Lifestyle</a></h4>
+                                <h4 class="category__title"><a href="#">Lifestyle</a></h4>
                                 <p>New Skills, New You</p>
                             </div>
                         </div>
@@ -155,7 +156,7 @@
                                 </svg>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Marketing</a></h4>
+                                <h4 class="category__title"><a href="#">Marketing</a></h4>
                                 <p>Improve your business</p>
                             </div>
                         </div>
@@ -171,7 +172,7 @@
                                 </svg>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Finance</a></h4>
+                                <h4 class="category__title"><a href="#">Finance</a></h4>
                                 <p>Fun & Challenging</p>
                             </div>
                         </div>
@@ -189,7 +190,7 @@
                                 </svg>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Health & Fitness</a></h4>
+                                <h4 class="category__title"><a href="#">Health & Fitness</a></h4>
                                 <p>Invest to Your Body</p>
                             </div>
                         </div>
@@ -209,7 +210,7 @@
                                 </svg>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Music</a></h4>
+                                <h4 class="category__title"><a href="#">Music</a></h4>
                                 <p>Major or Minor</p>
                             </div>
                         </div>
@@ -226,18 +227,18 @@
                                 </svg>
                             </div>
                             <div class="category__content">
-                                <h4 class="category__title"><a href="course-details.html">Academics</a></h4>
+                                <h4 class="category__title"><a href="#">Academics</a></h4>
                                 <p>High Education Level</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
         <!-- category area end -->
 
         <!-- banner area start -->
-        <section class="banner__area pb-110">
+        <!-- <section class="banner__area pb-110">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -245,7 +246,7 @@
                             <div class="banner__content">
                                 <span>Free</span>
                                 <h3 class="banner__title">
-                                    <a href="course-details.html">Germany Foundation <br> Document</a>
+                                    <a href="#">Germany Foundation <br> Document</a>
                                 </h3>
                                 <a href="course-grid.html" class="e-btn e-btn-2">View Courses</a>
                             </div>
@@ -259,7 +260,7 @@
                             <div class="banner__content">
                                 <span class="orange">new</span>
                                 <h3 class="banner__title">
-                                    <a href="course-details.html">Online Courses <br>From Eduka University</a>
+                                    <a href="#">Online Courses <br>From Eduka University</a>
                                 </h3>
                                 <a href="course-grid.html" class="e-btn e-btn-2">Find Out More</a>
                             </div>
@@ -270,7 +271,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- banner area end -->
 
         <!-- course area start -->
@@ -283,7 +284,7 @@
                             <p>You don't have to struggle alone, you've got our assistance and help.</p>
                         </div>
                     </div>
-                    <div class="col-xxl-7 col-xl-6 col-lg-6">
+                    <!-- <div class="col-xxl-7 col-xl-6 col-lg-6">
                         <div class="course__menu d-flex justify-content-lg-end mb-60">
                             <div class="masonary-menu filter-button-group">
                                 <button class="active" data-filter="*">
@@ -298,34 +299,40 @@
                                 <button data-filter=".cat4">Art & Design</button>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row grid">
-                    <div v-for="course in collections.course" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat2 cat4">
+                    <div v-for="(course, index) in collections.course" :key="index"  class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat2 cat4">
                         <div class="course__item white-bg mb-30 fix">
                             <div class="course__thumb w-img p-relative fix">
-                                <a href="course-details.html">
-                                    <img src="assets/img/course/course-1.jpg" alt="">
+                                <a href="#">
+                                    <router-link :to="'/course/' + course.id">
+                                        <img :src="'storage/courses/'+ course.id + '.jpg'" alt="">
+                                    </router-link>
                                 </a>
                                 <div class="course__tag">
-                                    <a href="#">Art & Design</a>
+                                    <a href="#">
+                                        <router-link :to="'/course/' + course.id">
+                                            {{ course.category.name }}
+                                        </router-link>
+                                    </a>
                                 </div>
                             </div>
                             <div class="course__content">
                                 <div class="course__meta d-flex align-items-center justify-content-between">
                                     <div class="course__lesson">
-                                        <span><i class="far fa-book-alt"></i>43 Lesson</span>
+                                        <span><i class="far fa-book-alt"></i>{{ course.lessons.length }} Lesson</span>
                                     </div>
                                     <div class="course__rating">
-                                        <span><i class="icon_star"></i>4.5 (44)</span>
+                                        <span><i class="icon_star"></i>0 (0)</span>
                                     </div>
                                 </div>
-                                <h3 class="course__title"><a href="course-details.html">{{ course.title  }}</a></h3>
+                                <h3 class="course__title"><a href="#">{{ course.title  }}</a></h3>
                                 <div class="course__teacher d-flex align-items-center">
                                     <div class="course__teacher-thumb mr-15">
-                                        <img src="assets/img/course/teacher/teacher-1.jpg" alt="">
+                                        <img :src="'storage/users/'+ course.user.id + '.jpg'" alt="">
                                     </div>
-                                    <h6><a href="instructor-details.html">Jim Séchen</a></h6>
+                                    <h6><a href="instructor-details.html">{{ course.user.name }}</a></h6>
                                 </div>
                             </div>
                             <div class="course__more d-flex justify-content-between align-items-center">
@@ -350,7 +357,7 @@
         <!-- course area end -->
 
         <!-- events area start -->
-        <section class="events__area pt-115 pb-120 p-relative">
+        <!-- <section class="events__area pt-115 pb-120 p-relative">
             <div class="events__shape">
                 <img class="events-1-shape" src="assets/img/events/events-shape.png" alt="">
             </div>
@@ -450,7 +457,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- events area end -->
 
         <!-- pricing area start -->
@@ -467,7 +474,7 @@
                 <div class="row">
                     <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
                         <div class="price__tab-content">
-                            <img v-for="partner in collections.partner" class="m-4" style="max-height: 100px" :src="'assets/img/partner/'+partner.id+'.jpg'">
+                            <a v-for="(partner, index) in collections.partner" :key="index" :href="partner.source" target="_blank"><img class="m-4" style="max-height: 100px" :src="'storage/mitras/'+partner.id+'.jpg'"></a>
                         </div>
                     </div>
                 </div>
@@ -490,7 +497,7 @@
                         </div>
                         <div class="col-xxl-5 col-xl-5 col-lg-4 col-md-4">
                             <div class="cta__more d-md-flex justify-content-end p-relative z-index-1">
-                                <a href="contact.html" class="e-btn e-btn-white">Get Started</a>
+                                <a href="#" class="e-btn e-btn-white">Get Started</a>
                             </div>
                         </div>
                     </div>
