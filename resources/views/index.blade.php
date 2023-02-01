@@ -46,7 +46,7 @@
                     <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
                         <div class="header__left d-flex">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src="assets/img/logo/logo.png" alt="logo">
                                 </a>
                             </div>
@@ -257,7 +257,7 @@
             </div>
             <div class="sidebar__content">
                 <div class="logo mb-40">
-                    <a href="index.html">
+                    <a href="/">
                         <img src="assets/img/logo/logo.png" alt="logo">
                     </a>
                 </div>
@@ -300,7 +300,7 @@
                             <div class="footer__widget mb-50">
                                 <div class="footer__widget-head mb-22">
                                     <div class="footer__logo">
-                                        <a href="index.html">
+                                        <a href="/">
                                             <img src="assets/img/logo/logo-2.png" alt="">
                                         </a>
                                     </div>
@@ -386,7 +386,7 @@
                     <div class="row">
                         <div class="col-xxl-12">
                             <div class="footer__copyright text-center">
-                                <p>© 2022 Educal, All Rights Reserved. Design By <a href="index.html">Theme Pure</a></p>
+                                <p>© 2019, All Rights Reserved. Design By <a href="/">Oguru Indonesia</a></p>
                             </div>
                         </div>
                     </div>
