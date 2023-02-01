@@ -13,13 +13,40 @@ class CourseController extends Controller
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function index()
+    public function index(Request $request)
     {
         try {
-            $data = Course::with(['user', 'category', 'lessons'])->orderBy('created_at', 'desc')->limit(3)->get();
+            $data = Course::with(['user', 'category', 'lessons'])
+                ->when(isset($request->category_id) && $request->category_id != 0, function($query) use ($request){
+                    $query->where('category_id', $request->category_id);
+                })
+                ->orderBy('end_date', 'desc')
+                ->get();
             return response()->json([
                 'status' => true,
                 'message'=> 'Success load all course',
+                'data'   => $data
+            ]);
+        } catch (\Throwable $e) {
+            return response()->json([
+                'status' => false,
+                'message'=> $e->getMessage(),
+                'data'   => null
+            ]);
+        }
+    }
+
+    public function latest()
+    {
+        try {
+            $data = Course::with(['user', 'category', 'lessons'])
+                ->where('end_date', '>=', now())
+                ->orderBy('created_at', 'desc')
+                ->limit(3)
+                ->get();
+            return response()->json([
+                'status' => true,
+                'message'=> 'Success load latest course',
                 'data'   => $data
             ]);
         } catch (\Throwable $e) {

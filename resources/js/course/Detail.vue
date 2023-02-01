@@ -22,23 +22,23 @@
                                 <div class="page__title-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                            <li class="breadcrumb-item"><a href="course-grid.html">Courses</a></li>
+                                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                            <li class="breadcrumb-item"><a href="/course">Courses</a></li>
                                             <li class="breadcrumb-item active" aria-current="page">{{ course.title }}</li>
                                         </ol>
                                     </nav>
                                 </div>
-                                <span class="page__title-pre">Development</span>
+                                <span class="page__title-pre">{{ course.category.name }}</span>
                                 <h5 class="page__title-3">{{ course.title }}</h5>
                             </div>
                             <div class="course__meta-2 d-sm-flex mb-30">
                                 <div class="course__teacher-3 d-flex align-items-center mr-70 mb-30">
                                     <div class="course__teacher-thumb-3 mr-15">
-                                        <img src="assets/img/course/teacher/teacher-1.jpg" alt="">
+                                        <img :src="'/storage/users/'+ course.user.id + '.jpg'" alt="">
                                     </div>
                                     <div class="course__teacher-info-3">
                                         <h5>Teacher</h5>
-                                        <p><a href="#">Elon Gated</a></p>
+                                        <p><a href="#">{{ course.user.name }}</a></p>
                                     </div>
                                 </div>
                                 <div class="course__update mr-80 mb-30">
@@ -49,13 +49,13 @@
                                     <h5>Review:</h5>
                                     <div class="course__rating-inner d-flex align-items-center">
                                         <ul>
-                                            <li><a href="#"> <i class="icon_star"></i> </a></li>
-                                            <li><a href="#"> <i class="icon_star"></i> </a></li>
-                                            <li><a href="#"> <i class="icon_star"></i> </a></li>
-                                            <li><a href="#"> <i class="icon_star"></i> </a></li>
-                                            <li><a href="#"> <i class="icon_star"></i> </a></li>
+                                            <li><a href="#"> <i class="icon_star_alt"></i> </a></li>
+                                            <li><a href="#"> <i class="icon_star_alt"></i> </a></li>
+                                            <li><a href="#"> <i class="icon_star_alt"></i> </a></li>
+                                            <li><a href="#"> <i class="icon_star_alt"></i> </a></li>
+                                            <li><a href="#"> <i class="icon_star_alt"></i> </a></li>
                                         </ul>
-                                        <p>4.5</p>
+                                        <p>0</p>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                                     <li v-for="req in requirements"> <i class="icon_check"></i> {{ req }}</li>
                                                 </ul>
                                             </div>
-                                            <div class="course__instructor mb-45">
+                                            <!-- <div class="course__instructor mb-45">
                                                 <h3>Other Instructors</h3>
                                                 <div class="course__instructor-wrapper d-md-flex align-items-center">
                                                     <div class="course__instructor-item d-flex align-items-center mr-70">
@@ -135,7 +135,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="curriculum" role="tabpanel" aria-labelledby="curriculum-tab">
@@ -579,7 +579,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="course__related">
+                            <!-- <div class="course__related">
                                 <div class="row">
                                     <div class="col-xxl-12">
                                         <div class="section__title-wrapper mb-40">
@@ -752,12 +752,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Add Pagination -->
                                             <div class="swiper-pagination"></div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4">
@@ -789,10 +788,10 @@
                                           </svg>
                                                 </div>
                                                 <div class="course__video-info">
-                                                    <h5><span>Instructor :</span> Eleanor Fant</h5>
+                                                    <h5><span>Instructor :</span> {{ course.user.name }}</h5>
                                                 </div>
                                             </li>
-                                            <li class="d-flex align-items-center">
+                                            <!-- <li class="d-flex align-items-center">
                                                 <div class="course__video-icon">
                                                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
 
@@ -814,7 +813,7 @@
                                                 <div class="course__video-info">
                                                     <h5><span>Duration :</span>6 weeks</h5>
                                                 </div>
-                                            </li>
+                                            </li> -->
                                             <li class="d-flex align-items-center">
                                                 <div class="course__video-icon">
                                                     <svg>
@@ -823,10 +822,10 @@
                                                     </svg>
                                                 </div>
                                                 <div class="course__video-info">
-                                                    <h5><span>Enrolled :</span>20 students</h5>
+                                                    <h5><span>Enrolled :</span>0 students</h5>
                                                 </div>
                                             </li>
-                                            <li class="d-flex align-items-center">
+                                            <!-- <li class="d-flex align-items-center">
                                                 <div class="course__video-icon">
                                                     <svg>
                                                         <circle class="st0" cx="8" cy="8" r="6.7"/>
@@ -837,16 +836,16 @@
                                                 <div class="course__video-info">
                                                     <h5><span>Language :</span>English</h5>
                                                 </div>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                     </div>
-                                    <div class="course__payment mb-35">
+                                    <div class="course__payment mb-35" v-if="course.close == false">
                                         <h3>Payment:</h3>
                                         <a href="#">
                                             <img src="assets/img/course/payment/payment-1.png" alt="">
                                         </a>
                                     </div>
-                                    <div class="course__enroll-btn">
+                                    <div class="course__enroll-btn" v-if="course.close == false">
                                         <a href="contact.html" class="e-btn e-btn-7 w-100">Enroll <i class="far fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -854,7 +853,7 @@
                             <div class="course__sidebar-widget-2 white-bg mb-20">
                                 <div class="course__sidebar-course">
                                     <h3 class="course__sidebar-title">Related courses</h3>
-                                    <ul>
+                                    <!-- <ul>
                                         <li>
                                             <div class="course__sm d-flex align-items-center mb-30">
                                                 <div class="course__sm-thumb mr-20">
@@ -927,7 +926,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -964,111 +963,6 @@
 
 
     </main>
-
-    <!-- footer area start -->
-    <footer>
-        <div class="footer__area footer-bg">
-            <div class="footer__top pt-190 pb-40">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                            <div class="footer__widget mb-50">
-                                <div class="footer__widget-head mb-22">
-                                    <div class="footer__logo">
-                                        <a href="index.html">
-                                            <img src="assets/img/logo/logo-2.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="footer__widget-body">
-                                    <p>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</p>
-
-                                    <div class="footer__social">
-                                        <ul>
-                                            <li><a href="#"><i class="social_facebook"></i></a></li>
-                                            <li><a href="#" class="tw"><i class="social_twitter"></i></a></li>
-                                            <li><a href="#" class="pin"><i class="social_pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 offset-lg-0 col-md-2 offset-md-1 col-sm-5 offset-sm-1">
-                            <div class="footer__widget mb-50">
-                                <div class="footer__widget-head mb-22">
-                                    <h3 class="footer__widget-title">Company</h3>
-                                </div>
-                                <div class="footer__widget-body">
-                                    <div class="footer__link">
-                                        <ul>
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Courses</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">Instructor</a></li>
-                                            <li><a href="#">Career</a></li>
-                                            <li><a href="#">Become a Teacher</a></li>
-                                            <li><a href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-xl-2 col-lg-2 offset-lg-0 col-md-3 offset-md-1 col-sm-6">
-                            <div class="footer__widget mb-50">
-                                <div class="footer__widget-head mb-22">
-                                    <h3 class="footer__widget-title">Platform</h3>
-                                </div>
-                                <div class="footer__widget-body">
-                                    <div class="footer__link">
-                                        <ul>
-                                            <li><a href="#">Browse Library</a></li>
-                                            <li><a href="#">Library</a></li>
-                                            <li><a href="#">Partners</a></li>
-                                            <li><a href="#">News & Blogs</a></li>
-                                            <li><a href="#">FAQs</a></li>
-                                            <li><a href="#">Tutorials</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-6">
-                            <div class="footer__widget footer__pl-70 mb-50">
-                                <div class="footer__widget-head mb-22">
-                                    <h3 class="footer__widget-title">Subscribe</h3>
-                                </div>
-                                <div class="footer__widget-body">
-                                    <div class="footer__subscribe">
-                                        <form action="#">
-                                            <div class="footer__subscribe-input mb-15">
-                                                <input type="email" placeholder="Your email address">
-                                                <button type="submit">
-                                                    <i class="far fa-arrow-right"></i>
-                                                    <i class="far fa-arrow-right"></i>
-                                                </button>
-                                            </div>
-                                        </form>
-                                        <p>Get the latest news and updates right at your inbox.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-12">
-                            <div class="footer__copyright text-center">
-                                <p>© 2022 Educal, All Rights Reserved. Design By <a href="index.html">Theme Pure</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 </template>
 
 <script>
@@ -1081,7 +975,10 @@ export default {
     },
     data(){
         return{
-            course: [],
+            course: {
+                category: {},
+                user: {}
+            },
             id:'',
             outcomes:'',
             requirements:'',
