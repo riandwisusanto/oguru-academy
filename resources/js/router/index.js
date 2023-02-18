@@ -3,6 +3,9 @@ import Home from "../landing/Index.vue";
 import Course from "../course/Index.vue";
 import CourseDetail from "../course/Detail.vue";
 import Registration from "../registration/Index.vue";
+import About from "../about/Index.vue";
+import Login from "../auth/Login.vue";
+import Register from "../auth/Register.vue";
 
 const routes = [
     {
@@ -24,6 +27,21 @@ const routes = [
         path: "/registration-diklat-batch-2",
         name: "registration",
         component: Registration,
+    },
+    {
+        path: "/about",
+        name: "about",
+        component: About,
+    },
+    {
+        path: "/login",
+        name: "login",
+        component: Login,
+    },
+    {
+        path: "/register",
+        name: "register",
+        component: Register,
     },
 ];
 
