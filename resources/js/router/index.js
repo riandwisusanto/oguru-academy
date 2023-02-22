@@ -6,6 +6,8 @@ import Registration from "../registration/Index.vue";
 import About from "../about/Index.vue";
 import Login from "../auth/Login.vue";
 import Register from "../auth/Register.vue";
+import Dashboard from "../course/Dashboard.vue";
+import Class from "../course/Class.vue";
 
 const routes = [
     {
@@ -22,6 +24,16 @@ const routes = [
         path: "/course/:id",
         name: "course_detail",
         component: CourseDetail,
+    },
+    {
+        path: "/dashboard",
+        name: "dashboard",
+        component: Dashboard,
+    },
+    {
+        path: "/class",
+        name: "class",
+        component: Class,
     },
     {
         path: "/registration",
