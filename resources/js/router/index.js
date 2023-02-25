@@ -65,6 +65,16 @@ const routes = [
         name: "support",
         component: Support,
     },
+    {
+        path: "/dashboard",
+        name: "dashboard",
+        component: Dashboard,
+    },
+    {
+        path: "/class",
+        name: "class",
+        component: Class,
+    },
 ];
 
 const router = createRouter({
