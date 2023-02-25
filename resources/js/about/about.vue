@@ -27,77 +27,38 @@
                 <div class="row">
                     <div class="col-xxl-5 offset-xxl-1 col-xl-6 col-lg-6">
                         <div class="about__thumb-wrapper">
-
-                            <!-- <div class="about__review">
-                                <h5> <span>8,200+</span> five ster reviews</h5>
-                            </div> -->
                             <div class="about__thumb ml-100">
                                 <img src="assets/img/about/about.jpg" alt="">
                             </div>
-                            <!-- <div class="about__banner mt--210">
-                                <img src="assets/img/about/about-banner.jpg" alt="">
-                            </div> -->
-                            <!-- <div class="about__student ml-270 mt--80">
-                                <a href="#">
-                                    <img src="assets/img/about/student-4.jpg" alt="">
-                                    <img src="assets/img/about/student-3.jpg" alt="">
-                                    <img src="assets/img/about/student-2.jpg" alt="">
-                                    <img src="assets/img/about/student-1.jpg" alt="">
-                                </a>
-                                <p>Join over <span>4,000+</span> students</p>
-                            </div> -->
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6">
                         <div class="about__content pl-70 pr-60 pt-25">
                             <div class="section__title-wrapper mb-25">
                                 <h2 class="section__title">Platform Belajar <br><span class="yellow-bg-big">Seumur Hidup <img src="assets/img/shape/yellow-bg-2.png" alt=""></span>  Dengan Oguru </h2>
-                                <p>Oguru Indonesia adalah platform edukasi berbasis teknologi yang menghubungkan instruktur guru kepada guru untuk memberikan berbagai kelas
-                                    pendampingan, peningkatan keterampilan bagi guru agar bisa mendapatkan kebutuhan  keilmuan, pengetahuan, literasi (Bahkan) apa pun secara online.</p>
-                                <p>Lahir di akhir tahun 2019 sebagai sebuah platform yang awalnya ingin menghubungkan guru dan instruktur guru, Oguru Indonesia kemudian berkembang
-                                    menjadi platform yang tidak hanya memberikan kelas-kelas pendidikan dan pelatihan tapi juga layanan toko agar bisa mendapatkan kebutuhan literasi
-                                    (Bahkan) apa pun secara mudah dan cepat.</p>
-                                <b>Misi kami adalah untuk menjadi platform bagi guru-guru indonesia dan menjadikan belajar serta berbagi
-                                    pengetahuan sebagai gaya hidup yang menginspirasi dan tersedia bagi siapa saja.</b>
+                                <p style="text-align: justify;">
+                                    OGURU ACADEMY MERUPAKAN LEMBAGA PENDIDIKAN DAN PELATIHAN YANG MEMBERIKAN BERAGAM FASILITAS UNTUK MENUNJANG KOMPETENSI AKADEMIK DAN NON AKADEMIK BAIK CALON GURU, GURU, MAUPUN PELAKU PENDIDIKAN LAINNYA <br><br>
+                                    Kami telah memiliki badan hukum dengan SK Menkumham No. AHU-0012324-AH.01.14     Tahun 2021 dan Kode Klasifikasi Baku Lapangan Usaha Indonesia yakni 85499 serta Nomor Proyek yakni 202102-1310-3151-4334-233. Dengan Akta Notaris Herman Soesilo, S.H. No. 155 Tanggal 9 Februari 2021 <br><br>
+                                </p>
                             </div>
                             <!-- <a href="contact.html" class="e-btn e-btn-border">apply now</a> -->
                         </div>
                     </div>
                     <div class="col-xxl-12 col-xl-12 col-lg-12">
                         <div class="about__content pl-70 pr-60 pt-25">
-                            <h3>Izinkan kami untuk memperkenalkan Anda ke beberapa kategori layanan popular kami:</h3>
-                            <h4>Layanan Oclass</h4>
+                            <p style="text-align: justify;">
+                                Kami memberikan solusi terpadu melalui platform edukasi berbasis teknologi yang menghubungkan Mahasiswa Oguru Academy kepada instruktur pilihan untuk memberikan berbagai kelas pendampingan, peningkatkan keterampilan agar mendapatkan kebutuhan keilmuan, pengetahuan, literasi (Bahkan) apa pun secara online. <br><br>
+                                Kami menawarkan para instruktur dan pakar praktisi ilmu untuk memberikan informasi keilmuan dan pengetahuan secara langsung atau melalui kelas online kepada jutaan peserta di seluruh indonesia. <br><br>
+                                Kami sangat ingin menyambut anda dari setiap disiplin dan budaya yang mencari pemahaman yang lebih dalam tentang keilmuan dan pengetahuan. Kami sangat percaya pada kekuatan keilmuan dan pengetahuan untuk mengubah sikap, kehidupan anda. Di Oguru Academy, kami membangun pelayanan one stop service dalam pengembangan diri (kompetensi) peserta/mahasiswa. <br><br>
+                                Lahir di akhir 2019 yakni bertepat pada tanggal 12 Desember 2019 sebagai sebuah platform yang awalnya ingin menghubungkan orang tua dan murid dengan guru-guru, Oguru Academy kemudian berkembang menjadi lembaga yang memudahkan para pembelajar mendapatkan pelayanan, bimbingan, pendampingan yang sudah terintegrasi dalam satu pintu di www.oguru.id <br><br>
+                                Misi kami adalah untuk menjadi lembaga bagi calon guru, guru, maupun pelaku pendidikan lainnya di indonesia dan menjadikan  belajar serta berbagi keilmuan dan pengetahuan sebagai gaya hidup yang menginspirasi dan tersedia bagi siapa saja. <br><br>
+                            </p>
+                            <h4>Izinkan kami untuk memperkenalkan Anda ke beberapa kategori kelas popular kami: </h4>
                             <div class="about__list mb-35">
                                 <ul>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Bahasa</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Foto dan Vidiografi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Psikologi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Teknologi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Manajemen dan Bisnis</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Pengembangan Diri</li>
-                                </ul>
-                            </div>
-
-                            <h4>Layanan Ovidi</h4>
-                            <div class="about__list mb-35">
-                                <ul>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Bahasa</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Foto dan Vidiografi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Psikologi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Teknologi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Manajemen dan Bisnis</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Pengembangan Diri</li>
-                                </ul>
-                            </div>
-
-                            <h4>Layanan Ostore</h4>
-                            <div class="about__list mb-35">
-                                <ul>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Tas</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Pakaian</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Sepatu</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Kaos Kaki</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Aksesoris</li>
+                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Kelas Sertifikasi Profesi</li>
+                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Kelas Diklat</li>
+                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Kelas Webinar</li>
                                 </ul>
                             </div>
                         </div>

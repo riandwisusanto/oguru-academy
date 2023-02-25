@@ -9,8 +9,6 @@
         <!-- Place favicon.ico in the root directory -->
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.png') }}">
 
-        <title>Laravel</title>
-
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('assets/css/preloader.css') }}">
@@ -46,7 +44,7 @@
                     <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
                         <div class="header__left d-flex">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src="assets/img/logo/logo.png" alt="logo">
                                 </a>
                             </div>
@@ -95,30 +93,10 @@
                                         </li>
                                         <li class="">
                                             <a href="/course">Courses</a>
-                                        <!-- </li>
-                                        <li class="has-dropdown">
-                                            <a href="blog.html">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
                                         </li>
-                                        <li class="has-dropdown">
-                                            <a href="course-grid.html">Pages</a>
-                                            <ul class="submenu">
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="instructor.html">Instructor</a></li>
-                                                <li><a href="instructor-details.html">Instructor Details</a></li>
-                                                <li><a href="event-details.html">Event Details</a></li>
-                                                <li><a href="cart.html">My Cart</a></li>
-                                                <li><a href="wishlist.html">My Wishlist</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="sign-in.html">Sign In</a></li>
-                                                <li><a href="sign-up.html">Sign Up</a></li>
-                                                <li><a href="error.html">Error</a></li>
-                                            </ul>
-                                        </li> -->
-                                        <li><a href="#">Contact</a></li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -141,7 +119,7 @@
                                 </div>
                             </div>
                             <div class="header__btn ml-20 d-none d-sm-block">
-                                <a href="#" class="e-btn">Try for free</a>
+                                <a href="/login" class="e-btn">Try for free</a>
                             </div>
                             <div class="sidebar__menu d-xl-none">
                                 <div class="sidebar-toggle-btn ml-30" id="sidebar-toggle">
@@ -257,7 +235,7 @@
             </div>
             <div class="sidebar__content">
                 <div class="logo mb-40">
-                    <a href="index.html">
+                    <a href="/">
                         <img src="assets/img/logo/logo.png" alt="logo">
                     </a>
                 </div>
@@ -300,7 +278,7 @@
                             <div class="footer__widget mb-50">
                                 <div class="footer__widget-head mb-22">
                                     <div class="footer__logo">
-                                        <a href="index.html">
+                                        <a href="/">
                                             <img src="assets/img/logo/logo-2.png" alt="">
                                         </a>
                                     </div>
@@ -388,7 +366,7 @@
                     <div class="row">
                         <div class="col-xxl-12">
                             <div class="footer__copyright text-center">
-                                <p>© 2022 Educal, All Rights Reserved. Design By <a href="index.html">Theme Pure</a></p>
+                                <p>© 2022 Educal, All Rights Reserved. Design By <a href="/">Theme Pure</a></p>
                             </div>
                         </div>
                     </div>

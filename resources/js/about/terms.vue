@@ -7,11 +7,11 @@
                 <div class="row">
                     <div class="col-xxl-12">
                         <div class="page__title-wrapper mt-110">
-                            <h3 class="page__title">About</h3>
+                            <h3 class="page__title">Terms</h3>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Terms and Conditions</li>
                                 </ol>
                             </nav>
                         </div>
@@ -25,350 +25,306 @@
         <section class="about__area pt-120 pb-150">
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-5 offset-xxl-1 col-xl-6 col-lg-6">
-                        <div class="about__thumb-wrapper">
-
-                            <div class="about__review">
-                                <h5> <span>8,200+</span> five ster reviews</h5>
-                            </div>
-                            <div class="about__thumb ml-100">
-                                <img src="assets/img/about/about.jpg" alt="">
-                            </div>
-                            <div class="about__banner mt--210">
-                                <img src="assets/img/about/about-banner.jpg" alt="">
-                            </div>
-                            <div class="about__student ml-270 mt--80">
-                                <a href="#">
-                                    <img src="assets/img/about/student-4.jpg" alt="">
-                                    <img src="assets/img/about/student-3.jpg" alt="">
-                                    <img src="assets/img/about/student-2.jpg" alt="">
-                                    <img src="assets/img/about/student-1.jpg" alt="">
-                                </a>
-                                <p>Join over <span>4,000+</span> students</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6">
-                        <div class="about__content pl-70 pr-60 pt-25">
-                            <div class="section__title-wrapper mb-25">
-                                <h2 class="section__title">Platform Belajar <br><span class="yellow-bg-big">Seumur Hidup <img src="assets/img/shape/yellow-bg-2.png" alt=""></span>  Dengan Oguru </h2>
-                                <p>Oguru Indonesia adalah platform edukasi berbasis teknologi yang menghubungkan instruktur guru kepada guru untuk memberikan berbagai kelas
-                                    pendampingan, peningkatan keterampilan bagi guru agar bisa mendapatkan kebutuhan  keilmuan, pengetahuan, literasi (Bahkan) apa pun secara online.</p>
-                                <p>Lahir di akhir tahun 2019 sebagai sebuah platform yang awalnya ingin menghubungkan guru dan instruktur guru, Oguru Indonesia kemudian berkembang
-                                    menjadi platform yang tidak hanya memberikan kelas-kelas pendidikan dan pelatihan tapi juga layanan toko agar bisa mendapatkan kebutuhan literasi
-                                    (Bahkan) apa pun secara mudah dan cepat.</p>
-                                <b>Misi kami adalah untuk menjadi platform bagi guru-guru indonesia dan menjadikan belajar serta berbagi
-                                    pengetahuan sebagai gaya hidup yang menginspirasi dan tersedia bagi siapa saja.</b>
-                            </div>
-                            <a href="contact.html" class="e-btn e-btn-border">apply now</a>
-                        </div>
-                    </div>
                     <div class="col-xxl-12 col-xl-12 col-lg-12">
                         <div class="about__content pl-70 pr-60 pt-25">
-                            <h3>Izinkan kami untuk memperkenalkan Anda ke beberapa kategori layanan popular kami:</h3>
-                            <h4>Layanan Oclass</h4>
-                            <div class="about__list mb-35">
-                                <ul>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Bahasa</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Foto dan Vidiografi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Psikologi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Teknologi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Manajemen dan Bisnis</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Pengembangan Diri</li>
-                                </ul>
-                            </div>
-
-                            <h4>Layanan Ovidi</h4>
-                            <div class="about__list mb-35">
-                                <ul>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Bahasa</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Foto dan Vidiografi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Psikologi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Teknologi</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Manajemen dan Bisnis</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Pengembangan Diri</li>
-                                </ul>
-                            </div>
-
-                            <h4>Layanan Ostore</h4>
-                            <div class="about__list mb-35">
-                                <ul>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Tas</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Pakaian</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Sepatu</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Kaos Kaki</li>
-                                    <li class="d-flex align-items-center"> <i class="icon_check"></i> Aksesoris</li>
-                                </ul>
-                            </div>
+                            <h3>PENGANTAR</h3>
+                            <p style="text-align: justify;">
+                                Selamat datang di Oguru Academy. Dengan menggunakan Oguru Academy Anda menyetujui Syarat & Ketentuan berikut. Jika Anda memiliki pertanyaan, silakan merujuk ke kontak admin kami di nomor tertera (+62 857-5568-6067). <br>
+                                Sementara Layanan Kelas yang aktif adalah Kelas Diklat dan Kelas Webinar yakni kami memungkinkan calon guru, guru, pelaku pendidikan atau yang suka dipendidikan untuk terhubung dengan instruktur terbaik Indonesia yang memberikan proses pembelajaran langsung (Offline) maupun tidak langsung (Online) yakni kelas diklat dan webinar, serta layanan pembelajaran lainnya melalui Oguru Academy. Layanan mencakup, tanpa batasan, memfasilitasi dan menyelenggarakan kelas serta materi pendukung, dan menerima umpan balik dari Pengguna. <br>
+                                Dari waktu ke waktu, Kami dapat memperbarui Ketentuan ini untuk mengklarifikasi praktik kami atau untuk mencerminkan praktik baru atau berbeda, seperti ketika Kami menambahkan fitur baru, dan Oguru Aacademy berhak atas kebijakannya sendiri untuk memodifikasi dan / atau membuat perubahan pada Ketentuan ini pada kapan saja. Jika Kami membuat perubahan materi pada Ketentuan ini, Kami akan memberi tahu Anda menggunakan cara yang akan di ketahui Anda seperti dengan pemberitahuan email yang dikirim ke alamat email yang ditentukan dalam Akun Anda atau dengan memposting pemberitahuan melalui Layanan Kami. Modifikasi akan menjadi efektif bagi Anda <br>
+                                Jika Anda terus menggunakan Layanan Kami setelah perubahan berlaku, berarti Anda menerima perubahan itu. Anda harus mengunjungi Layanan secara teratur untuk memastikan Anda mengetahui versi terbaru dari Ketentuan yang ada, karena Ketentuan yang direvisi akan menggantikan semua Ketentuan sebelumnya. <br>
+                                Oguru Indonesia dapat mengubah Layanan atau menghentikan ketersediaannya setiap saat. Ketentuan ini disediakan untuk kenyamanan dan Anda memahami dan setuju bahwa bahasa Indonesia akan mengontrol jika ada konflik.
+                            </p>
+                            <br>
+                            <h3>CAKUPAN</h3>
+                            <p style="text-align: justify;">
+                                Sebelum Anda menjadi anggota Oguru Academy, Anda harus membaca dan menerima semua Ketentuan yang berlaku. Kami sangat menyarankan, saat Anda membaca Ketentuan ini, Anda juga mengakses dan membaca informasi yang ditautkan. Dengan menerima Ketentuan ini, Anda setuju bahwa Ketentuan ini akan berlaku setiap kali Anda menggunakan situs atau Layanan Oguru Academy, atau ketika Anda menggunakan alat yang kami sediakan untuk berinteraksi dengan situs dan Layanan Oguru Academy.
+                            </p>
+                            <h3>SYARAT & KETENTENTUAN PENDIDIK/INSTRUKTUR</h3>
+                            <p style="text-align: justify;">
+                                <h4>Layanan Kelas</h4>
+                                Jika Anda seorang Instruktur, Syarat & Ketentuan Instruktur ini memuat syarat dan ketentuan partisipasi Anda sebagai Instruktur melalui layanan Oguru Academy.
+                                <br> Sebagai seorang Instruktur, Anda menyatakan, menjamin, dan berjanji bahwa;
+                                <div class="about__list">
+                                    <ul>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Anda akan bertanggung jawab untuk semua konten yang Anda kirimkan. Anda selanjutnya setuju bahwa Anda memiliki lisensi, hak, persetujuan, dan izin yang diperlukan, dan wewenang untuk mengizinkan Oguru Academy, untuk mereproduksi, mendistribusikan, melakukan secara publik;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Tidak ada konten yang dikirimkan akan melanggar atau menyalahgunakan hak kekayaan intelektual pihak ketiga;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda memiliki kualifikasi, dan keahlian yang disyaratkan, termasuk tanpa batasan, pendidikan, pelatihan, pengetahuan, dan keahlian, untuk mengajar dan menawarkan layanan yang Anda tawarkan;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan mengunggah, memposting, atau mentransmisikan iklan, materi promosi, email sampah, surat berantai, skema piramida, atau bentuk permintaan lain apa pun (komersial atau lainnya);
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan menggunakan Layanan untuk bisnis apa pun selain untuk menyediakan layanan bimbingan belajar, dan pengajaran kepada peserta didik;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan mengambil tindakan apa pun yang dapat merusak sistem umpan balik (seperti menampilkan, mengimpor atau mengekspor informasi umpan balik dari situs atau menggunakannya untuk tujuan yang tidak terkait dengan Oguru Academy);
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan memanipulasi harga kelas apa pun atau mengganggu daftar pengguna lain;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan gagal untuk memberikan pembelajaran di kelas yang dibeli dari Anda, kecuali Pembelajar gagal memenuhi persyaratan yang diposting;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan mentransfer akun Oguru Aacdemy Anda (termasuk umpan balik) dan ID Pengguna ke pihak lain tanpa persetujuan kami;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Penggunaan Anda atas layanan ini harus mematuhi pada persetujuan Oguru Academy, yang dapat kami berikan atau tolak atas kebijakan kami sendiri;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan mendistribusikan virus, worm, spyware atau kode komputer, file, teknologi atau program apa pun yang dapat atau dimaksudkan untuk merusak atau membajak operasi perangkat keras, perangkat lunak atau peralatan telekomunikasi, atau aspek lain apa pun dari situs Oguru.id baik tentang properti pengguna Oguru Academy;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan melanggar hukum apa pun, hak pihak ketiga, atau kebijakan kami;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan menghindari atau memanipulasi struktur biaya kami, proses penagihan, atau biaya yang terutang ke Oguru Academy;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan mengekspor atau mengekspor kembali alat Oguru Academy, kecuali sesuai dengan undang-undang kontrol ekspor dari yurisdiksi yang relevan dan sesuai dengan aturan dan batasan yang diposting;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i>
+                                            <p>
+                                                Anda tidak akan menggunakan situs, layanan, atau alat kami jika Anda tidak dapat membentuk kontrak yang mengikat secara hukum, berusia di bawah 18 tahun, atau untuk sementara atau tanpa batas waktu tidak dapat menggunakan situs, layanan, atau alat kami.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </p>
+                            <p style="text-align: justify;">
+                                <h4>Lokakarya Instruktur</h4>
+                                Pembuatan Lokakarya
+                                <br>Di bawah ini adalah panduan untuk Instruktur saat membuat Lokakarya:    
+                                <div class="about__list">
+                                    <ul>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Informasi Akurat - Dengan membuat Lokakarya, Anda akan bertanggung jawab untuk memastikan semua informasi yang dikirimkan ke Oguru Academy akurat. Setiap informasi atau kesalahan yang menyesatkan yang dilakukan secara sengaja atau tidak sengaja (misalnya: salah memasukkan tanggal / lokasi lokakarya, dll.) Akan menyebabkan penangguhan akun Anda dan jika terjadi ketidaknyamanan bagi para peserta, Anda diharuskan untuk menanggung penuh tanggung jawab termasuk mengkompensasi kerugian finansial yang mungkin ditimbulkan karena kekurangan informasi yang Anda berikan;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Lokakarya Aktual Hari - Sebagai Instruktur Guru / tuan rumah / penyelenggara lokakarya, Anda bertanggung jawab untuk memastikan bahwa lokakarya / kelas akan disampaikan dalam lingkungan yang kondusif;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Biaya - Biaya pemasaran dan administrasi per tiket yang dijual melalui Oguru Academy sudah disesuaikan dan kesepakatan antara lembaga dan instruktur sehingga tidak ada dari kedua belah pihak yang dirugikan, dengan menjunjung kolaborasi dan visi yang sama.
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                              Konfirmasi Status Lokakarya - Anda harus masuk ke akun Instruktur Anda untuk mengonfirmasi status jadwal Anda apakah kelas akan sedang berlangsung atau dibatalkan, setidaknya 3 hari sebelum kelas dimulai. Pembatalan atau perubahan menit terakhir yang tidak responsif atau perubahan yang dilakukan dalam waktu 24 jam dari waktu lokakarya yang menyebabkan ketidaknyamanan besar pada administrasi kami dan peserta yang terdaftar dapat mengakibatkan Anda terkena penalti berikut: Penangguhan akun Anda ditambah biaya 20 persen dari total harga jual yang Anda harus menyelesaikan dalam 10 hari kerja sejak tanggal pembatalan;  
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Tampilan Harga - Anda tidak diperbolehkan mempublikasikan kelas Anda di tempat lain dengan harga lebih rendah dari pada yang ditampilkan di Oguru Academy atau mengeluarkan diskon apa pun tanpa memberi tahu kami. Kami akan memiliki hak untuk menghapus Lokakarya Anda atau mengubah harga sesuai jika ditemukan dan jika ada pendaftaran yang ada, kami akan mengganti perbedaan yang tersisa kepada pelanggan tanpa persetujuan Anda;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Kampanye Diskon / Promosi In-House - Dalam hal jika Oguru Academy mengeluarkan kampanye diskon / promosi kami sendiri di situs web kami (misalnya: diskon 10 persen untuk anggota kami yang merayakan ulang tahun mereka), kami akan menanggung biaya diskon di dalam Biaya 20 persen kami menagih Anda;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Kelas Gratis - Semua Kelas gratis akan ditinjau dan jika disetujui, kami memerlukan logo dan situs web kami untuk disebutkan dalam SEMUA saluran media promosi Anda. Misalnya: "Kelas Didukung Oleh Oguru Academy" atau "Media Partner: Oguru Academy". Gagal untuk menyertakan kami akan menghasilkan penghapusan kelas Anda di daftar situs web kami;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Kelas Disponsori - Anda diharuskan untuk memberi tahu kami jika kelas Anda disponsori / didukung oleh merek tertentu (dengan pengecualian sponsor venue) dan biaya tambahan mungkin dikenakan biaya. Gagal memberi tahu kami akan menghasilkan penghapusan kelas Anda di daftar situs web kami;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Penyelesaian Pembayaran & Lokakarya - Semua biaya akan ditransfer ke rekening bank Anda dalam 3-4 (tiga hingga empat) hari kerja setelah Anda menyelesaikan Lokakarya. Oleh karena itu, Anda diharuskan untuk masuk ke dasbor situs Anda dan klik "lengkapi situs" agar kami dapat memproses pembayaran Anda;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Harga Khusus Untuk Anggota Anda Sendiri - Jika Anda memiliki harga khusus untuk keanggotaan sekolah / lembaga / rekan kerja / komunitas Anda sendiri, mohon tuliskan “catatan untuk admin” di langkah 5 (lima) dari Lokakarya penciptaan;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Kebijakan Pembatalan & Pengembalian Uang - Setiap pembatalan atau perubahan besar yang dilakukan pada informasi kelas Anda (seperti Kenaikan Harga, Lokasi, Tanggal, Waktu) akan menghasilkan pemberitahuan yang dikirim kepada para peserta yang telah membeli kelas Anda dan mereka berhak mendapatkan pengembalian dana lengkap. Anda akan dikenakan biaya pemrosesan 3 persen dari jumlah total yang dibayarkan oleh peserta yang meminta pengembalian dana karena perubahan besar atau pembatalan yang dilakukan oleh Anda (dibayarkan ke akun kami dalam 10 hari kerja sejak tanggal pembatalan) . Pengembalian dana pelanggan akan ditangani oleh kami;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Force Majeure - Jika kelas Anda harus dibatalkan karena tindakan tertentu, atau keadaan lain di luar kendali wajarnya, termasuk tetapi tidak terbatas pada kebakaran, banjir, keributan sipil, kerusuhan, perang (dinyatakan dan tidak dideklarasikan), revolusi, atau embargo, maka kegagalan tersebut akan dimaafkan selama acara tersebut dan untuk waktu seperti itu;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Vendor's Responsibility - Jika ada pembatalan atau perubahan yang dilakukan oleh Anda, Anda dianjurkan untuk menghubungi peserta secara pribadi meskipun sistem kami akan mengirimkan email pemberitahuan otomatis kepada mereka;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Hak Pelanggan - Peserta terdaftar yang telah berhasil membeli lokakarya Anda tidak berhak atas pembatalan atau pengembalian uang, kecuali jika Anda telah membuat beberapa perubahan besar pada informasi lokakarya (seperti Lokasi, Tanggal, Waktu atau Harga) atau ada beberapa keadaan yang tidak terduga (karena keadaan lain di luar kendali, termasuk tetapi tidak terbatas pada kebakaran, banjir, keributan sipil, kerusuhan, perang (dinyatakan dan tidak diumumkan), atau yang lain), setelah mereka beli. Namun, mereka di izinkan memindahkan kursi kelas mereka ke pihak lain. Dalam hal jika peserta meminta perubahan jadwal, keputusan akan diberikan kepada Anda;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Promosi Media Sosial - Kami tidak berkewajiban mempublikasikan kelas Anda di Instagram. Namun, jika Anda ingin mengamankan penempatan konfirmasi pada umpan Instagram kami, Anda dapat menghubungi kami melalui email dan biaya Rp. 300.000, - akan dikenakan biaya per posting. Desain dan waktu posting akan diputuskan oleh tim kami;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Photo Banner Untuk Promosi Kelas - Anda bertanggung jawab untuk mengunggah foto atau gambar asli yang bebas untuk penggunaan pribadi dan bahkan untuk komersial;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Right To Curate - Harap jangan menggunakan foto yang memiliki banyak teks dan logo. Tim desain kami memiliki hak untuk mengganti gambar apa pun untuk keperluan pendampingan;
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Layanan Kelas - Layanan ini hanya merupakan pasar bagi instruktur atau peserta didik lainnya. Kami tidak mempekerjakan atau mempekerjakan intruktur, Kami juga tidak bertanggung jawab atau berkewajiban atas setiap interaksi yang terlibat antara instuktur/peserta didik lainnya. yang membeli kelas melalui Layanan ini. Kami tidak bertanggung jawab atas perselisihan, klaim, kehilangan, cedera, atau kerusakan dalam bentuk apa pun yang mungkin timbul dari atau terkait dengan perilaku instruktur/peserta didik lainnya, termasuk, namun tidak terbatas pada, kepercayaan setiap peserta atas informasi yang diberikan oleh instruktur/pengajar.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </p>
+                            <p style="text-align: justify;">
+                                <h4>Membeli Lokakarya</h4>
+                                Di bawah ini adalah persyaratan untuk peserta/mahasiswa saat membeli Lokakarya:
+                                <div class="about__list">
+                                    <ul>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Semua pembayaran tidak dapat dikembalikan dan tidak dapat ditransfer ke kelas lain tetapi Anda diizinkan untuk mentransfer tiket Anda ke orang lain. Mohon informasikan kepada kami sehingga kami dapat membuat pengaturan yang diperlukan.
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Jika kelas dibatalkan karena beberapa kejadian tak terduga oleh instruktur, kami akan mengembalikan pembayaran Anda sepenuhnya.
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Jika informasi kelas seperti harga / waktu / lokasi / deskripsi pembelajaran diubah oleh instruktur / fasilitator, Anda dapat memiliki opsi untuk meminta pengembalian uang.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </p>
+                            <p style="text-align: justify;">
+                                <h4>Biaya dan Layanan</h4>
+                                Bergabung dengan Oguru Academy dan daftar kelas atau memilih layanan yang lain secara gratis. Kami membebankan biaya per pendaftaran peserta di setiap layanan. Anda memiliki kesempatan untuk meninjau dan menerima biaya yang akan dibebankan kepada Anda berdasarkan Jadwal Biaya khusus Anda, yang tersedia dalam informasi akun Anda. Perubahan pada jadwal itu efektif setelah kami memberi Anda pemberitahuan setidaknya empat belas hari dengan memposting perubahan di situs Oguru.id. Kecuali dinyatakan lain, semua biaya dikutip dalam Rupiah.
+                            </p>
+                            <p style="text-align: justify;">
+                                <h4>Pribadi</h4>
+                                Kami tidak menjual atau menyewakan informasi pribadi Anda kepada pihak ketiga untuk tujuan pemasaran mereka tanpa persetujuan eksplisit dari Anda. Kami menggunakan informasi Anda hanya seperti yang dijelaskan dalam Kebijakan Privasi kami. Kami melihat perlindungan privasi pengguna sebagai prinsip komunitas yang sangat penting. Anda dapat mengakses dan mengubah informasi yang Anda berikan kepada kami dan memilih untuk tidak menerima komunikasi tertentu dengan masuk ke akun Anda. Kami menggunakan pihak ketiga untuk memverifikasi dan mengesahkan prinsip privasi kami. Untuk deskripsi lengkap tentang bagaimana kami menggunakan dan melindungi informasi pribadi Anda, lihat Kebijakan Privasi Oguru Academy. Jika Anda keberatan informasi Anda ditransfer atau digunakan dengan cara ini, jangan gunakan layanan kami.
+                            </p>
+                            <p style="text-align: justify;">
+                                <h4>Penolakan</h4>
+                                Sementara Layanan hanya merupakan pasar bagi Instruktur/peserta lainnya. Kami tidak merekrut atau mempekerjakan Instruktur, Kami juga tidak bertanggung jawab atau berkewajiban atas setiap interaksi yang terlibat antara Instruktur dan peserta lainnya yang membeli kelas melalui Layanan. Kami tidak bertanggung jawab atas perselisihan, klaim, kehilangan, cedera, atau kerusakan dalam bentuk apa pun yang mungkin timbul dari atau terkait dengan perilaku instruktur atau peserta didik, termasuk, namun tidak terbatas pada, kepercayaan setiap peserta didik atas informasi yang diberikan oleh instruktur.
+                                <br>Kami tidak mengontrol konten yang dikirimkan yang diposting pada Layanan dan, dengan demikian, tidak menjamin dengan cara apa pun keandalan, validitas, akurasi atau kebenaran dari konten yang dikirimkan tersebut. Anda juga memahami bahwa dengan menggunakan Layanan, Oguru Academy dapat memaparkan Anda pada konten yang dikirimkan yang Anda anggap menyinggung, tidak senonoh, atau tidak menyenangkan. Oguru Academy tidak bertanggung jawab untuk menyimpan konten tersebut dari Anda dan tidak bertanggung jawab atas akses Anda atau penggunaan konten yang dikirimkan, sejauh diizinkan oleh hukum yang berlaku.
+                            </p>
+                            <p style="text-align: justify;">
+                                <h4>Sengketa Hukum & Hukum yang Berlaku</h4>
+                                Jika timbul perselisihan antara Anda dan Oguru Academy, tujuan kami adalah untuk memberi Anda cara netral dan hemat biaya untuk menyelesaikan perselisihan dengan cepat. Karenanya, Anda dan Oguru Academy setuju bahwa kami akan menyelesaikan segala klaim atau kontroversi berdasarkan hukum atau keadilan yang timbul dari Perjanjian ini atau layanan kami sesuai dengan salah satu subbagian di bawah ini atau sebagaimana kami dan Anda sebaliknya setuju secara tertulis. Sebelum menggunakan alternatif-alternatif ini, kami sangat menganjurkan Anda untuk terlebih dahulu menghubungi kami secara langsung untuk mencari penyelesaian dengan menghubungi kami. Kami akan mempertimbangkan permintaan yang wajar untuk menyelesaikan perselisihan melalui prosedur penyelesaian perselisihan alternatif, seperti mediasi atau arbitrasi, sebagai alternatif untuk litigasi.
+                                <br>Perjanjian ini akan diatur dalam segala hal oleh hukum Republik Indonesia sebagaimana berlaku untuk perjanjian yang dibuat dan dilakukan sepenuhnya di dalam Republik Indonesia antara penduduk Republik Indonesia, tanpa memperhatikan pertentangan ketentuan hukum. Anda setuju bahwa setiap klaim atau perselisihan yang Anda miliki terhadap Oguru Academy harus diselesaikan secara eksklusif oleh pengadilan negeri yang berlokasi di Surabaya, Republik Indonesia.
+                            </p>
+                            <p style="text-align: justify;">
+                                <h4>Ganti Rugi</h4>
+                                Anda setuju untuk mengganti rugi dan membebaskan Oguru Academy dan karyawannya, perwakilan, agen, dan afiliasinya, terhadap setiap dan semua klaim, tuntutan, tindakan, atau proses lain yang diajukan terhadap mereka berdasarkan atau timbul dari klaim apa pun yang disebabkan oleh pelanggaran Anda terhadap Ketentuan ini. Anda akan membayar setiap dan semua biaya, kerusakan, dan pengeluaran, termasuk, tetapi tidak terbatas pada, biaya dan biaya pengacara yang masuk akal yang diberikan terhadap atau yang ditimbulkan oleh Kami sehubungan dengan atau timbul dari klaim, tuntutan, tindakan, tindakan, atau proses tersebut.
+                            </p>
+                            <p style="text-align: justify;">
+                                <h4>Lain-lain</h4>
+                                Anda menyatakan dan menjamin kepada Kami bahwa:
+                                <br> Ketentuan ini merupakan kewajiban hukum Anda, yang sah, dan mengikat, dapat ditegakkan terhadap Anda sesuai dengan syarat dan ketentuan yang tercantum di sini;
+                                <div class="about__list">
+                                    <ul>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Anda memiliki hak, kekuasaan, dan otoritas penuh untuk menerima dan terikat oleh Ketentuan ini dan untuk melakukan kewajiban Anda berdasarkan Ketentuan ini, tanpa persetujuan atau persetujuan dari pihak lain;
+                                           </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Anda memiliki hak, kepemilikan, dan kepentingan yang memadai dalam dan terhadap hak-hak yang diberikan kepada Kami dalam Ketentuan ini; dan,
+                                           </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                ANDA TELAH MEMBACA DAN DI AMBIL KE ACCOUNT PEMBATASAN TANGGUNG JAWAB DAN KETENTUAN PENAFIAN JAMINAN DARI KETENTUAN-KETENTUAN INI SEBELUM MENERIMA PERSYARATAN INI.
+                                           </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Anda tidak boleh mengalihkan hak atau kewajiban Anda berdasarkan Ketentuan ini kepada pihak mana pun, dan segala upaya untuk melakukannya akan batal dan tidak berlaku. Kami bebas menetapkan Ketentuan Afiliasi ini.
+                                           </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Hukum yang Berlaku. Ketentuan Afiliasi ini diatur oleh hukum Republik Indonesia. Setiap perselisihan yang mungkin timbul sehubungan dengan Ketentuan ini harus diselesaikan sesuai dengan bagian Perselisihan Hukum dan Hukum yang Mengatur.
+                                           </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Anda tidak dapat mengubah atau mengabaikan ketentuan apa pun dari Ketentuan ini kecuali disetujui oleh kami berdua.
+                                           </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Seluruh Perjanjian. Ketentuan-ketentuan ini mewakili seluruh perjanjian antara Kami dan Anda, dan akan menggantikan semua perjanjian dan komunikasi sebelumnya antara kami, baik lisan maupun tulisan.
+                                           </p>
+                                        </li>
+                                        <li class="d-flex align-items-center"> <i class="icon_check"></i> 
+                                           <p>
+                                                Jika ada ketentuan dalam Ketentuan Afiliasi ini dianggap tidak sah atau tidak dapat dilaksanakan, ketentuan yang harus dihilangkan atau dibatasi seminimal mungkin sehingga maksud dari kami berdua adalah efektif, dan sisa dari Ketentuan ini harus memiliki kekuatan penuh dan efek.
+                                           </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- about area end -->
-
-        <!-- brand area start -->
-        <section class="brand__area pb-110">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="brand__content text-center">
-                            <h3 class="brand__title">Our Partners</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="brand__slider swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="brand__item text-center text-lg-start">
-                                        <img v-for="partner in collections.partner" class="m-4" style="max-height: 100px" :src="'assets/img/partner/'+partner.id+'.jpg'">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="brand__more text-center">
-                            <a href="about.html" class="link-btn">
-                                View all partners
-                                <i class="far fa-arrow-right"></i>
-                                <i class="far fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- brand area end -->
-
-        <!-- counter area start -->
-        <section class="counter__area pt-145 pb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-6 offset-xl-3 col-xl-6 offset-xl-3">
-                        <div class="section__title-wrapper text-center mb-60">
-                            <h2 class="section__title">We are <span class="yellow-bg yellow-bg-big">Proud<img src="assets/img/shape/yellow-bg.png" alt=""></span></h2>
-                            <p>You don't have to struggle alone, you've got our assistance and help.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 col-md-3 offset-md-0 col-sm-5 offset-sm-2">
-                        <div class="counter__item mb-30">
-                            <div class="counter__icon user mb-15">
-                                <svg viewBox="0 0 490.7 490.7">
-                                    <path class="st0" d="m245.3 98c-39.7 0-72 32.3-72 72s32.3 72 72 72 72-32.3 72-72-32.3-72-72-72zm0 123.3c-28.3 0-51.4-23-51.4-51.4s23-51.4 51.4-51.4 51.4 23 51.4 51.4-23 51.4-51.4 51.4z"/>
-                                    <path class="st0" d="m389.3 180.3c-28.3 0-51.4 23-51.4 51.4s23 51.4 51.4 51.4c28.3 0 51.4-23 51.4-51.4s-23.1-51.4-51.4-51.4zm0 82.2c-17 0-30.8-13.9-30.8-30.8s13.9-30.8 30.8-30.8 30.8 13.9 30.8 30.8-13.9 30.8-30.8 30.8z"/>
-                                    <path class="st0" d="m102.9 180.3c-28.3 0-51.4 23-51.4 51.4s23 51.4 51.4 51.4 51.4-23 51.4-51.4-23-51.4-51.4-51.4zm0 82.2c-17 0-30.8-13.9-30.8-30.8s13.9-30.8 30.8-30.8 30.8 13.9 30.8 30.8-13.7 30.8-30.8 30.8z"/>
-                                    <path class="st0" d="m245.3 262.5c-73.7 0-133.6 59.9-133.6 133.6 0 5.7 4.6 10.3 10.3 10.3s10.3-4.6 10.3-10.3c0-62.3 50.7-113 113-113s113.1 50.7 113.1 113c0 5.7 4.6 10.3 10.3 10.3s10.3-4.6 10.3-10.3c0-73.7-60-133.6-133.7-133.6z"/>
-                                    <path class="st0" d="m389.3 303.6c-17 0-33.5 4.6-47.9 13.4-4.8 3-6.4 9.2-3.5 14.2 3 4.8 9.2 6.4 14.2 3.5 11.2-6.8 24.1-10.4 37.3-10.4 39.7 0 72 32.3 72 72 0 5.7 4.6 10.3 10.3 10.3s10.3-4.6 10.3-10.3c-0.2-51.3-41.8-92.7-92.7-92.7z"/>
-                                    <path class="st0" d="m149.4 316.9c-14.5-8.7-30.9-13.3-47.9-13.3-51 0-92.5 41.5-92.5 92.5 0 5.7 4.6 10.3 10.3 10.3s10.3-4.6 10.3-10.3c0-39.7 32.3-72 72-72 13.2 0 26 3.6 37.2 10.4 4.8 3 11.2 1.4 14.2-3.5 2.9-4.9 1.2-11.1-3.6-14.1z"/>
-                                </svg>
-                            </div>
-                            <div class="counter__content">
-                                <h4><span class="counter">345,421</span></h4>
-                                <p>Students Enrolled</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5">
-                        <div class="counter__item counter__pl-80 mb-30">
-                            <div class="counter__icon book mb-15">
-                                <svg viewBox="0 0 512 512">
-                                    <path class="st0" d="M458.7,512h-384c-29.4,0-53.3-23.9-53.3-53.3V53.3C21.3,23.9,45.3,0,74.7,0H416c5.9,0,10.7,4.8,10.7,10.7v74.7  h32c5.9,0,10.7,4.8,10.7,10.7v405.3C469.3,507.2,464.6,512,458.7,512z M42.7,96v362.7c0,17.6,14.4,32,32,32H448v-384H74.7  C62.7,106.7,51.6,102.7,42.7,96L42.7,96z M74.7,21.3c-17.6,0-32,14.4-32,32s14.4,32,32,32h330.7v-64H74.7z"/>
-                                    <path class="st0" d="M309.3,298.7c-2.8,0-5.5-1.1-7.6-3.1l-56.4-56.5l-56.4,56.4c-3.1,3.1-7.6,4-11.6,2.3c-4-1.6-6.6-5.5-6.6-9.8V96  c0-5.9,4.8-10.7,10.7-10.7S192,90.1,192,96v166.3l45.8-45.8c4.2-4.2,10.9-4.2,15.1,0l45.8,45.8V96c0-5.9,4.8-10.7,10.7-10.7  S320,90.1,320,96v192c0,4.3-2.6,8.2-6.6,9.9C312.1,298.4,310.7,298.7,309.3,298.7L309.3,298.7z"/>
-                                </svg>
-                            </div>
-                            <div class="counter__content">
-                                <h4><span class="counter">2,485</span></h4>
-                                <p>Total Courses</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-2 offset-xxl-0 col-xl-3 offset-xl-0 col-lg-3 offset-lg-0 col-md-3 offset-md-0 col-sm-5 offset-sm-2">
-                        <div class="counter__item counter__pl-34 mb-30">
-                            <div class="counter__icon graduate mb-15">
-                                <svg viewBox="0 0 512 512">
-                                    <g id="Page-1">
-                                        <g id="_x30_01---Degree">
-                                            <path id="Shape" class="st0" d="M500.6,86.3L261.8,1c-3.8-1.3-7.9-1.3-11.7,0L11.3,86.3C4.5,88.7,0,95.2,0,102.4    s4.5,13.6,11.3,16.1L128,160.1v53.2c0,33.2,114.9,34.1,128,34.1s128-1,128-34.1v-53.2l25.6-9.1v19.6c0,9.4,7.6,17.1,17.1,17.1    h17.1c9.4,0,17.1-7.6,17.1-17.1V145c0-4-1-7.8-2.8-11.4l42.7-15.3c6.8-2.4,11.3-8.9,11.3-16.1S507.5,88.8,500.6,86.3L500.6,86.3z     M366.9,194.6c-32.5-14.8-101-15.4-110.9-15.4s-78.4,0.6-110.9,15.4v-74.3c5.1-6.6,45.4-17.8,110.9-17.8s105.8,11.2,110.9,17.8    V194.6z M256,230.4c-63.1,0-102.8-10.4-110.2-17.1c7.4-6.6,47.1-17.1,110.2-17.1s102.8,10.4,110.2,17.1    C358.8,220,319.1,230.4,256,230.4z M413.6,131.5L384,142v-22.5c0-33.2-114.9-34.1-128-34.1s-128,1-128,34.1V142L17.1,102.4    l239.1-85.3L426.7,78v43C421.3,123,416.7,126.6,413.6,131.5z M443.7,170.7h-17.1v-25.6c0-4.7,3.8-8.5,8.5-8.5s8.5,3.8,8.5,8.5    v25.6H443.7z M443.7,120.7V84.1l51.2,18.3L443.7,120.7z"/>
-                                            <path id="Shape_1_" class="st0" d="M486.4,264.5c-0.5,0-1,0-1.5,0.1C409.2,276.4,332.6,282,256,281.5    c-76.6,0.5-153.2-5.2-228.9-16.9c-0.5-0.1-1-0.1-1.5-0.1c-6,0-25.6,6.8-25.6,93.9s19.6,93.9,25.6,93.9c0.5,0,1-0.1,1.5-0.2    c58.2-9.2,116.9-14.6,175.8-16l-16.7,40c-2.6,6.4-1,13.7,3.9,18.5s12.3,6.1,18.6,3.4l6.5-2.8l2.8,6.5c2.7,6.3,8.9,10.4,15.7,10.4    h0.2c6.9-0.1,13.1-4.3,15.6-10.6l14.8-35.5l14.8,35.3c2.6,6.5,8.8,10.7,15.7,10.8h0.3c6.8,0,12.9-4,15.6-10.2l2.9-6.5l6.4,2.8    c6.3,2.8,13.8,1.5,18.7-3.4c5-4.8,6.5-12.2,3.9-18.6L326.3,437c53.1,1.9,106,7,158.5,15.4c0.5,0.1,1,0.1,1.5,0.1    c6,0,25.6-6.8,25.6-93.9S492.4,264.5,486.4,264.5L486.4,264.5z M283.3,298.4c3.5,13,5.6,26.4,6.2,39.9c-19.3-9-42-6.9-59.4,5.5    c-0.4-15.3-2.4-30.6-5.9-45.5c10.3,0.2,20.9,0.3,31.8,0.3C265.3,298.7,274.4,298.6,283.3,298.4z M264.5,435.2    c-23.6,0-42.7-19.1-42.7-42.7s19.1-42.7,42.7-42.7s42.7,19.1,42.7,42.7S288.1,435.2,264.5,435.2z M25.6,285.9    c6.5,23.6,9.4,48.1,8.5,72.5c0.9,24.5-2,48.9-8.5,72.5c-6.5-23.6-9.4-48.1-8.5-72.5C16.2,333.9,19.1,309.5,25.6,285.9z     M42.8,432.4c4.7-13.5,8.4-36.2,8.4-74s-3.7-60.5-8.4-74c54.2,7.5,108.8,12,163.5,13.5c5.1,19.7,7.5,40.1,7,60.5    c0,1.2,0,2.4-0.1,3.6c-10.2,17-11.3,38-2.7,55.9l-0.4,0.9C154.2,420.2,98.3,424.7,42.8,432.4L42.8,432.4z M233.9,494.9l-6.2-14.3    c-1.9-4.3-6.9-6.3-11.2-4.4l-14.4,6.3l20-48c8.2,8.3,18.7,14.1,30.1,16.5L233.9,494.9z M312.6,476.2c-4.3-1.9-9.3,0.1-11.2,4.4    l-6.3,14.2L276.8,451c11.5-2.4,21.9-8.1,30.2-16.5l20,47.8L312.6,476.2z M484.7,434.8c-54.8-8.4-110.1-13.6-165.5-15.4l-0.6-1.5    c10.7-22.6,6.1-49.5-11.5-67.3c-0.1-17.7-2.1-35.3-6.1-52.6c61.5-1.4,122.9-6.7,183.7-16.1c4,6.7,10.2,33.3,10.2,76.4    S488.6,428,484.7,434.8L484.7,434.8z"/>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="counter__content">
-                                <h4><span class="counter">24,085</span></h4>
-                                <p>Online Learners</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-2 offset-xxl-1 col-xl-3 col-lg-3 col-md-3 col-sm-5">
-                        <div class="counter__item mb-30">
-                            <div class="counter__icon globe mb-15">
-                                <svg viewBox="0 0 512 512">
-                                    <path class="st0" d="M444.2,150.6c6.9-14.6,10.9-30.4,11.8-46.6c0.1-48.5-39.2-87.9-87.8-88c-28,0-54.4,13.3-71,35.9  C175.7,29.1,58.6,109.2,35.8,230.8s57.3,238.6,178.9,261.4c121.6,22.8,238.6-57.3,261.4-178.9c2.6-13.6,3.8-27.4,3.8-41.3  C480,228.9,467.6,186.7,444.2,150.6z M464,272c0,39.2-11.1,77.6-32.1,110.8c-7.1-34.3-20.4-42.5-36.7-48.8  c-5.3-1.6-10.3-4.4-14.4-8.1c-5.9-6.6-11-13.8-15.2-21.5c-11.4-18.8-25.5-42.1-57.7-58.2l-5.9-2.9c-40.4-20-54-26.8-34.8-84.2  c3.5-10.5,9.5-20.1,17.4-27.9c9.9,32.7,34,71.5,55,101.4c11,15.6,32.6,19.4,48.2,8.4c3.3-2.3,6.1-5.1,8.4-8.4  c14.7-20.6,28-42.3,39.7-64.7C454.4,199.5,464,235.4,464,272z M368,32c39.7,0,72,32.3,72,72c0,24.8-20.2,67.2-56.8,119.4  c-6,8.4-17.6,10.4-26,4.4c-1.7-1.2-3.2-2.7-4.4-4.4C316.2,171.2,296,128.8,296,104C296,64.3,328.3,32,368,32z M48,272  c0-45.4,14.9-89.6,42.4-125.7c12,7.9,65.3,45.5,53.6,86.2c-4.9,14.7-3.4,30.8,4.2,44.3c14.1,24.4,45,32.4,45.6,32.6  c0.3,0.1,26.5,9.1,31.4,27.2c2.7,9.9-1.5,21.5-12.6,34.5c-12.5,15.5-29.2,27.1-48,33.5c-14.5,5.6-27.3,10.6-33.5,33.7  C78.8,399,48,337.4,48,272z M256,480c-39.2,0-77.5-11.1-110.6-32c3.6-20.1,10.6-22.9,25.1-28.5c21.3-7.4,40.1-20.5,54.3-38  c14.8-17.3,20.1-33.8,15.9-49.2c-7.3-26.3-40.4-37.6-42.4-38.2c-0.2-0.1-25.5-6.6-36.3-25.2c-5.3-9.8-6.3-21.4-2.6-31.9  c14.3-50.1-42.1-92-58.8-103.1C140,89.4,196.6,64,256,64c10.9,0,21.7,0.9,32.5,2.6c-5.6,11.7-8.5,24.5-8.5,37.4  c0,3.2,0.3,6.4,0.7,9.5c-13.3,10.4-23.2,24.5-28.6,40.5c-23.6,70.6,1.4,83.1,42.9,103.6l5.8,2.9c28,14,40.3,34.3,51.1,52.2  c4.9,8.8,10.7,17.1,17.5,24.6c5.7,5.3,12.5,9.3,20,11.7c12.9,5,24.1,9.4,29.2,52.4C379.4,451,319.4,480,256,480z M368,152  c26.5,0,48-21.5,48-48s-21.5-48-48-48s-48,21.5-48,48C320,130.5,341.5,152,368,152z M368,72c17.7,0,32,14.3,32,32s-14.3,32-32,32  s-32-14.3-32-32S350.3,72,368,72z"/>
-                                </svg>
-                            </div>
-                            <div class="counter__content">
-                                <h4><span class="counter">203</span>k</h4>
-                                <p>Foreign Followers</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- counter area end -->
-
-
-        <!-- banner area start -->
-        <section class="banner__area pb-110">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                        <div class="banner__item p-relative mb-40" data-background="assets/img/banner/banner-bg-1.jpg">
-                            <div class="banner__content">
-                                <span>Free</span>
-                                <h3 class="banner__title">
-                                    <a href="course-details.html">Germany Foundation <br> Document</a>
-                                </h3>
-                                <a href="course-grid.html" class="e-btn e-btn-2">View Courses</a>
-                            </div>
-                            <div class="banner__thumb d-none d-sm-block d-md-none d-lg-block">
-                                <img src="assets/img/banner/banner-img-1.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                        <div class="banner__item p-relative mb-40" data-background="assets/img/banner/banner-bg-2.jpg">
-                            <div class="banner__content">
-                                <span class="orange">new</span>
-                                <h3 class="banner__title">
-                                    <a href="course-details.html">Online Courses <br>From Eduka University</a>
-                                </h3>
-                                <a href="course-grid.html" class="e-btn e-btn-2">Find Out More</a>
-                            </div>
-                            <div class="banner__thumb banner__thumb-2 d-none d-sm-block d-md-none d-lg-block">
-                                <img src="assets/img/banner/banner-img-2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- banner area end -->
-
     </main>
-
-    <!-- footer area start -->
-    <footer>
-        <div class="footer__area footer-bg">
-            <div class="footer__top pt-90 pb-40">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                            <div class="footer__widget mb-50">
-                                <div class="footer__widget-head mb-22">
-                                    <div class="footer__logo">
-                                        <a href="index.html">
-                                            <img src="assets/img/logo/logo-2.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="footer__widget-body">
-                                    <p>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</p>
-
-                                    <div class="footer__social">
-                                        <ul>
-                                            <li><a href="#"><i class="social_facebook"></i></a></li>
-                                            <li><a href="#" class="tw"><i class="social_twitter"></i></a></li>
-                                            <li><a href="#" class="pin"><i class="social_pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 offset-lg-0 col-md-2 offset-md-1 col-sm-5 offset-sm-1">
-                            <div class="footer__widget mb-50">
-                                <div class="footer__widget-head mb-22">
-                                    <h3 class="footer__widget-title">Company</h3>
-                                </div>
-                                <div class="footer__widget-body">
-                                    <div class="footer__link">
-                                        <ul>
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Courses</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">Instructor</a></li>
-                                            <li><a href="#">Career</a></li>
-                                            <li><a href="#">Become a Teacher</a></li>
-                                            <li><a href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-xl-2 col-lg-2 offset-lg-0 col-md-3 offset-md-1 col-sm-6">
-                            <div class="footer__widget mb-50">
-                                <div class="footer__widget-head mb-22">
-                                    <h3 class="footer__widget-title">Platform</h3>
-                                </div>
-                                <div class="footer__widget-body">
-                                    <div class="footer__link">
-                                        <ul>
-                                            <li><a href="#">Browse Library</a></li>
-                                            <li><a href="#">Library</a></li>
-                                            <li><a href="#">Partners</a></li>
-                                            <li><a href="#">News & Blogs</a></li>
-                                            <li><a href="#">FAQs</a></li>
-                                            <li><a href="#">Tutorials</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-6">
-                            <div class="footer__widget footer__pl-70 mb-50">
-                                <div class="footer__widget-head mb-22">
-                                    <h3 class="footer__widget-title">Subscribe</h3>
-                                </div>
-                                <div class="footer__widget-body">
-                                    <div class="footer__subscribe">
-                                        <form action="#">
-                                            <div class="footer__subscribe-input mb-15">
-                                                <input type="email" placeholder="Your email address">
-                                                <button type="submit">
-                                                    <i class="far fa-arrow-right"></i>
-                                                    <i class="far fa-arrow-right"></i>
-                                                </button>
-                                            </div>
-                                        </form>
-                                        <p>Get the latest news and updates right at your inbox.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-12">
-                            <div class="footer__copyright text-center">
-                                <p>© 2022 Educal, All Rights Reserved. Design By <a href="index.html">Theme Pure</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 </template>
 
 <script>
