@@ -5,6 +5,8 @@ import CourseDetail from "../course/Detail.vue";
 import Registration from "../registration/Index.vue";
 import Login from "../auth/Login.vue";
 import Register from "../auth/Register.vue";
+import Dashboard from "../course/Dashboard.vue";
+import Class from "../course/Class.vue";
 
 // about
 import About from "../about/about.vue";
@@ -66,7 +68,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHistory(),
     routes,
 });
 
