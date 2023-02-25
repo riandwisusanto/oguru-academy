@@ -14,7 +14,7 @@
                             <h3 class="page__title">Courses</h3>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="/">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Courses</li>
                                 </ol>
                             </nav>
@@ -61,21 +61,18 @@
                                     </ul>
                                 </div>
                                 <div class="course__view">
-                                    <h4>Showing 1 - 9 of 84</h4>
+                                    <h4>Showing {{ startrecord }} - {{ endrecord }} of {{ totalrecord }}</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
                             <div class="course__sort d-flex justify-content-sm-end">
                                 <div class="course__sort-inner">
-                                    <select>
-                                        <option>Default</option>
-                                        <option>Option 1</option>
-                                        <option>Option 2</option>
-                                        <option>Option 3</option>
-                                        <option>Option 4</option>
-                                        <option>Option 5</option>
-                                        <option>Option 6</option>
+                                    <select name="category" v-model="model.category_id">
+                                        <option value="0">All Course</option>
+                                        <option v-for="(category, index) in collections.category" :key="index" :value="category.id">
+                                            {{ category.name }}
+                                        </option>
                                     </select>
                                 </div>
                             </div>
@@ -88,40 +85,41 @@
                             <div class="tab-content" id="courseTabContent">
                                 <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
                                     <div class="row">
-                                        <div v-for="course in collections.course" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat2 cat4">
+                                        <div v-for="course, index in collections.course" :key="index" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat2 cat4">
                                             <div class="course__item white-bg mb-30 fix">
                                                 <div class="course__thumb w-img p-relative fix">
-                                                    <a href="course-details.html">
-                                                        <img src="assets/img/course/course-1.jpg" alt="">
+                                                    <a href="#">
+                                                        <router-link :to="'/course/' + course.id">
+                                                            <img :src="'storage/courses/'+ course.id + '.jpg'" alt="">
+                                                        </router-link>
                                                     </a>
                                                     <div class="course__tag">
-                                                        <a href="#">Art & Design</a>
+                                                        <a href="#">
+                                                            <router-link :to="'/course/' + course.id">
+                                                                {{ course.category.name }}
+                                                            </router-link>
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="course__content">
-                                                    <div class="course__meta d-flex align-items-center justify-content-between">
-                                                        <div class="course__lesson">
-                                                            <span><i class="far fa-book-alt"></i>43 Lesson</span>
-                                                        </div>
-                                                        <div class="course__rating">
-                                                            <span><i class="icon_star"></i>4.5 (44)</span>
-                                                        </div>
-                                                    </div>
-                                                    <h3 class="course__title"><a href="course-details.html">{{ course.title  }}</a></h3>
+                                                    <h3 class="course__title"><a href="#">{{ course.title  }}</a></h3>
                                                     <div class="course__teacher d-flex align-items-center">
                                                         <div class="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher/teacher-1.jpg" alt="">
+                                                            <img :src="'storage/users/'+ course.user.id + '.jpg'" alt="">
                                                         </div>
-                                                        <h6><a href="instructor-details.html">Jim Séchen</a></h6>
+                                                        <h6><a href="#">{{ course.user.name }}</a></h6>
                                                     </div>
                                                 </div>
                                                 <div class="course__more d-flex justify-content-between align-items-center">
                                                     <div class="course__status">
                                                         <span v-if="course.is_free == 1">Free</span>
                                                         <span v-else>Rp. {{ currency(course.price) }}</span>
+
+                                                        <small v-if="course.close" class="text-danger">(Closed)</small>
+                                                        <small v-else class="text-success">(Open)</small>
                                                     </div>
                                                     <div class="course__btn">
-                                                        <a href="course-details.html" class="link-btn">
+                                                        <a href="" class="link-btn">
                                                             <router-link :to="'/course/' + course.id">
                                                                 Know Details
                                                             </router-link>
@@ -135,50 +133,53 @@
                                 </div>
                                 <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab">
                                     <div class="row">
-                                        <div v-for="course in collections.course" class="col-xxl-12">
+                                        <div v-for="(course, index) in collections.course" :key="index" class="col-xxl-12">
                                             <div class="course__item white-bg mb-30 fix">
                                                 <div class="row gx-0">
                                                     <div class="col-xxl-4 col-xl-4 col-lg-4">
                                                         <div class="course__thumb course__thumb-list w-img p-relative fix">
-                                                            <a href="course-details.html">
-                                                                <img src="assets/img/course/list/course-1.jpg" alt="">
+                                                            <a href="#">
+                                                                <router-link :to="'/course/' + course.id">
+                                                                    <img :src="'storage/courses/'+ course.id + '.jpg'" alt="">
+                                                                </router-link>
                                                             </a>
                                                             <div class="course__tag">
-                                                                <a href="#">Art & Design</a>
+                                                                <a href="#">
+                                                                    <router-link :to="'/course/' + course.id">
+                                                                        {{ course.category.name }}
+                                                                    </router-link>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-xxl-8 col-xl-8 col-lg-8">
                                                         <div class="course__right">
                                                             <div class="course__content course__content-3">
-                                                                <div class="course__meta d-flex align-items-center">
-                                                                    <div class="course__lesson mr-20">
-                                                                        <span><i class="far fa-book-alt"></i>43 Lesson</span>
-                                                                    </div>
-                                                                    <div class="course__rating">
-                                                                        <span><i class="icon_star"></i>4.5 (44)</span>
-                                                                    </div>
-                                                                </div>
                                                                 <h3 class="course__title course__title-3">
-                                                                    <a href="course-details.html">{{ course.title  }}</a>
+                                                                    <router-link :to="'/course/' + course.id">
+                                                                        {{ course.title  }}
+                                                                    </router-link>
                                                                 </h3>
                                                                 <div class="course__summary">
                                                                     <p v-html="course.desctiprions" style="max-height: 100px; overflow: hidden"></p>
                                                                 </div>
                                                                 <div class="course__teacher d-flex align-items-center">
                                                                     <div class="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher/teacher-1.jpg" alt="">
+                                                                        <img :src="'storage/users/'+ course.user.id + '.jpg'" alt="">
                                                                     </div>
-                                                                    <h6><a href="instructor-details.html">Jim Séchen</a></h6>
+                                                                    <h6><a href="#">{{ course.user.name }}</a></h6>
                                                                 </div>
                                                             </div>
                                                             <div class="course__more course__more-2 d-flex justify-content-between align-items-center">
                                                                 <div class="course__status">
                                                                     <span v-if="course.is_free == 1">Free</span>
                                                                     <span v-else>Rp. {{ currency(course.price) }}</span>
+
+                                                                    <small v-if="course.close" class="text-danger">(Closed)</small>
+                                                                    <small v-else class="text-success">(Open)</small>
                                                                 </div>
                                                                 <div class="course__btn">
-                                                                    <a href="course-details.html" class="link-btn">
+                                                                    <a href="" class="link-btn">
                                                                         <router-link :to="'/course/' + course.id">
                                                                             Know Details
                                                                         </router-link>
@@ -278,11 +279,17 @@ export default {
     },
     data(){
         return{
+            startrecord: 0,
+            endrecord: 0,
+            totalrecord: 0,
             collections: {
                 course: [],
                 partner: [],
                 category: [],
             },
+            model: {
+                category_id: 0
+            }
         }
     },
     async mounted(){
@@ -302,7 +309,7 @@ export default {
         },
 
         async fetchCourse(){
-            let endpoint = `${BASEURL}/api/course`;
+            let endpoint = `${BASEURL}/api/course?category_id=${this.model.category_id}`;
             let response = await axios.get(endpoint)
             this.collections.course = response.data.data
         },
@@ -316,6 +323,12 @@ export default {
             let response = await axios.get(endpoint)
             this.collections.partner = response.data.data
         },
+    },
+
+    watch: {
+        'model.category_id': function(newdata){
+            this.fetchCourse();
+        }
     }
 }
 </script>
