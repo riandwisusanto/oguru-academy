@@ -318,7 +318,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 offset-lg-0 col-md-2 offset-md-1 col-sm-5 offset-sm-1">
+                        <div class="col-xxl-4 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 offset-lg-0 col-md-2 offset-md-1 col-sm-5 offset-sm-1">
                             <div class="footer__widget mb-50">
                                 <div class="footer__widget-head mb-22">
                                     <h3 class="footer__widget-title">Company</h3>
@@ -326,19 +326,21 @@
                                 <div class="footer__widget-body">
                                     <div class="footer__link">
                                         <ul>
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Courses</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">Instructor</a></li>
-                                            <li><a href="#">Career</a></li>
-                                            <li><a href="#">Become a Teacher</a></li>
+                                            <li><a href="/about">About</a></li>
+                                            <li><a href="/terms">Terms and Conditions</a></li>
+                                            <li><a href="/privacy">Privacy Policy</a></li>
+                                            <li><a href="/support">Support</a></li>
+                                            <!-- <li><a href="#">Events</a></li> -->
+                                            <!-- <li><a href="#">Instructor</a></li> -->
+                                            <!-- <li><a href="#">Career</a></li> -->
+                                            <!-- <li><a href="#">Become a Teacher</a></li> -->
                                             <li><a href="#">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-2 col-xl-2 col-lg-2 offset-lg-0 col-md-3 offset-md-1 col-sm-6">
+                        <!-- <div class="col-xxl-2 col-xl-2 col-lg-2 offset-lg-0 col-md-3 offset-md-1 col-sm-6">
                             <div class="footer__widget mb-50">
                                 <div class="footer__widget-head mb-22">
                                     <h3 class="footer__widget-title">Platform</h3>
@@ -356,7 +358,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-6">
                             <div class="footer__widget footer__pl-70 mb-50">
                                 <div class="footer__widget-head mb-22">

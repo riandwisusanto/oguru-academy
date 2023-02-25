@@ -3,9 +3,14 @@ import Home from "../landing/Index.vue";
 import Course from "../course/Index.vue";
 import CourseDetail from "../course/Detail.vue";
 import Registration from "../registration/Index.vue";
-import About from "../about/Index.vue";
 import Login from "../auth/Login.vue";
 import Register from "../auth/Register.vue";
+
+// about
+import About from "../about/about.vue";
+import Terms from "../about/terms.vue";
+import Privacy from "../about/privacy.vue";
+import Support from "../about/support.vue";
 
 const routes = [
     {
@@ -29,11 +34,6 @@ const routes = [
         component: Registration,
     },
     {
-        path: "/about",
-        name: "about",
-        component: About,
-    },
-    {
         path: "/login",
         name: "login",
         component: Login,
@@ -42,6 +42,26 @@ const routes = [
         path: "/register",
         name: "register",
         component: Register,
+    },
+    {
+        path: "/about",
+        name: "about",
+        component: About,
+    },
+    {
+        path: "/terms",
+        name: "terms",
+        component: Terms,
+    },
+    {
+        path: "/privacy",
+        name: "privacy",
+        component: Privacy,
+    },
+    {
+        path: "/support",
+        name: "support",
+        component: Support,
     },
 ];
 
