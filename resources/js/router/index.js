@@ -9,10 +9,10 @@ import Dashboard from "../course/Dashboard.vue";
 import Class from "../course/Class.vue";
 
 // about
-import About from "../about/about.vue";
-import Terms from "../about/terms.vue";
-import Privacy from "../about/privacy.vue";
-import Support from "../about/support.vue";
+import About from "../about/About.vue";
+import Terms from "../about/Terms.vue";
+import Privacy from "../about/Privacy.vue";
+import Support from "../about/Support.vue";
 
 const routes = [
     {

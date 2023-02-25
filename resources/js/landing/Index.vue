@@ -1,15 +1,5 @@
 <template>
-<!--        &lt;!&ndash;[if lte IE 9]>-->
-<!--        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>-->
-<!--        <![endif]&ndash;&gt;-->
-
-    <!-- Add your site or application content here -->
-
-<!--<Header/>-->
-
     <main>
-
-        <!-- hero area start -->
         <section class="hero__area hero__height d-flex align-items-center grey-bg-2 p-relative">
             <div class="hero__shape">
                 <img class="hero-1-circle" src="assets/img/shape/hero/hero-1-circle.png" alt="">
