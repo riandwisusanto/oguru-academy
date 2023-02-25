@@ -33,19 +33,18 @@
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6">
-                        <div class="about__content pl-70 pr-60 pt-25">
+                        <div class="about__content pl-70 pr-60">
                             <div class="section__title-wrapper mb-25">
                                 <h2 class="section__title">Platform Belajar <br><span class="yellow-bg-big">Seumur Hidup <img src="assets/img/shape/yellow-bg-2.png" alt=""></span>  Dengan Oguru </h2>
                                 <p style="text-align: justify;">
                                     OGURU ACADEMY MERUPAKAN LEMBAGA PENDIDIKAN DAN PELATIHAN YANG MEMBERIKAN BERAGAM FASILITAS UNTUK MENUNJANG KOMPETENSI AKADEMIK DAN NON AKADEMIK BAIK CALON GURU, GURU, MAUPUN PELAKU PENDIDIKAN LAINNYA <br><br>
-                                    Kami telah memiliki badan hukum dengan SK Menkumham No. AHU-0012324-AH.01.14     Tahun 2021 dan Kode Klasifikasi Baku Lapangan Usaha Indonesia yakni 85499 serta Nomor Proyek yakni 202102-1310-3151-4334-233. Dengan Akta Notaris Herman Soesilo, S.H. No. 155 Tanggal 9 Februari 2021 <br><br>
+                                    Kami telah memiliki badan hukum dengan SK Menkumham No. AHU-0012324-AH.01.14     Tahun 2021 dan Kode Klasifikasi Baku Lapangan Usaha Indonesia yakni 85499 serta Nomor Proyek yakni 202102-1310-3151-4334-233. Dengan Akta Notaris Herman Soesilo, S.H. No. 155 Tanggal 9 Februari 2021
                                 </p>
                             </div>
-                            <!-- <a href="contact.html" class="e-btn e-btn-border">apply now</a> -->
                         </div>
                     </div>
                     <div class="col-xxl-12 col-xl-12 col-lg-12">
-                        <div class="about__content pl-70 pr-60 pt-25">
+                        <div class="about__content pl-70 pr-60">
                             <p style="text-align: justify;">
                                 Kami memberikan solusi terpadu melalui platform edukasi berbasis teknologi yang menghubungkan Mahasiswa Oguru Academy kepada instruktur pilihan untuk memberikan berbagai kelas pendampingan, peningkatkan keterampilan agar mendapatkan kebutuhan keilmuan, pengetahuan, literasi (Bahkan) apa pun secara online. <br><br>
                                 Kami menawarkan para instruktur dan pakar praktisi ilmu untuk memberikan informasi keilmuan dan pengetahuan secara langsung atau melalui kelas online kepada jutaan peserta di seluruh indonesia. <br><br>
