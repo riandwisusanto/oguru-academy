@@ -150,6 +150,22 @@
                                     <span class="line"></span>
                                 </div>
                             </div>
+                            <div class="header__category d-none d-lg-block">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="course-grid.html" class="cat-menu d-flex align-items-center btn btn-outline-primary p-0 rounded-pill overflow-hidden">
+{{--                                                <i class="fad fa-user"></i>--}}
+                                                <img style="max-height: 50px; border-radius: 50%;" src="{{ asset('profile.jpg') }}">
+                                            </a>
+                                            <ul class="cat-submenu" style="max-width: 200px !important;">
+                                                <li><a href="course-details.html"><i class="fad fa-user"></i> Profil Saya</a></li>
+                                                <li><a href="course-details.html" class="text-danger"><i class="fad fa-sign-out"></i> Keluar</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </div>
