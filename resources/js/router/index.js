@@ -8,6 +8,7 @@ import Login from "../auth/Login.vue";
 import Register from "../auth/Register.vue";
 import Dashboard from "../course/Dashboard.vue";
 import Class from "../course/Class.vue";
+import Certificate from "../certificate/Index.vue";
 
 const routes = [
     {
@@ -54,6 +55,11 @@ const routes = [
         path: "/register",
         name: "register",
         component: Register,
+    },
+    {
+        path: "/certificate",
+        name: "certificate",
+        component: Certificate,
     },
 ];
 

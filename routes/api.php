@@ -22,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::apiResource('category', App\Http\Controllers\Api\CategoryController::class)->only(['index', 'show']);
 Route::apiResource('course', App\Http\Controllers\Api\CourseController::class)->only(['index', 'show']);
 Route::apiResource('mitra', App\Http\Controllers\Api\MitraController::class)->only(['index', 'show']);
+Route::apiResource('certificate', App\Http\Controllers\Api\CertificateController::class)->only(['index']);
